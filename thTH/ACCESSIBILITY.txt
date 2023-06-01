@@ -822,3 +822,11 @@ ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} จาก {1} ความส�
 ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	กด c เพื่อเข้าถึงคอลเลกชั่น	Available in some choose deck menus
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	เลเวล {0}: {1} ค่าประสบการณ์ที่ต้องการ	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, รางวัล: {0}	0 is text description of rewards. This is appended to the previous item.
+
+ACCESSIBILITY_DUELS_READ_STATS	ตรวจสอบข้อมูลการเล่น	Read your casual, heroic duels ratings, maximum wins and season ending time info
+ACCESSIBILITY_DUELS_CHOOSE_TYPE	เลือกรูปแบบการต่อสู้	Choosing the type of duels (casual/heroic)
+ACCESSIBILITY_DUELS_LOSSES_COUNT	แพ้	Losses count in current duels run
+ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	ใช้ปุ่มลูกศรเพื่ออ่านพลังฮีโร่กด {0} เพื่อเลือก	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	ใช้ปุ่มลูกศรเพื่ออ่านสมบัติเริ่มต้นกด {0} เพื่อเลือก	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	ใช้ปุ่มลูกศรเพื่ออ่านสมบัติกด {0} เพื่อเลือกสมบัติและกด {1} เพื่อดูเด็คของคุณ	{0} is enter, {1} is D key
+ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	ใช้ปุ่ม {0} และปุ่ม {1} เพื่อเลื่อนไปมาระหว่างกล่องของขวัญ ลูกศรเพื่ออ่านการ์ดในกล่องกด {2} เพื่อเลือกกล่อง และกด {3} เพื่อดูเด็คของคุณ	{0} Tab {1} Shift+Tab {2} Enter {3} D key

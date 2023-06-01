@@ -647,8 +647,15 @@ ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Прочитать текущ�
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} из {1} |4(звезды,звезды,звезд)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	Звездный бонус: {0}	0=current star bonus e.g. {2} star bonus
 
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	Просмотреть группу	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Прочитать статистику	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	Рассказывать об атаках во время боя	
+
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_WAITING	приглашен	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_READY	готов	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_LEADER	лидер	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_NOT_READY	не готов	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_SPECTATE	играет	
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Уведомление: прогресс задания 	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Текущий прогресс {0} из {1}	0=current progress 1=total
@@ -820,3 +827,11 @@ ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} из {1} неполных до�
 ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	Нажмите c для доступа к коллекции	Available in some choose deck menus
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Уровень {0}: {1} опыта до следующего уровня	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Достижения: {0}	0 is text description of rewards. This is appended to the previous item.
+
+ACCESSIBILITY_DUELS_READ_STATS	Прочитать статистику	Read your casual, heroic duels ratings, maximum wins and season ending time info
+ACCESSIBILITY_DUELS_CHOOSE_TYPE	Выберите тип дуэлей	Choosing the type of duels (casual/heroic)
+ACCESSIBILITY_DUELS_LOSSES_COUNT	Поражений	Losses count in current duels run
+ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	Используйте клавиши со стрелками для чтения сил героя, {0} для выбора.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	Используйте клавиши со стрелками для чтения стартовых сокровищ, {0} для выбора.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Используйте клавиши со стрелками для чтения сокровищ, {0} для выбора сокровища и {1} для просмотра вашей колоды.	{0} is enter, {1} is D key
+ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Используйте {0} и {1} для перемещения между добычами, клавиши со стрелками для чтения карт в добыче, {2} для выбора добычи и {3} для просмотра вашей колоды.	{0} Tab {1} Shift+Tab {2} Enter {3} D key

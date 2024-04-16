@@ -5,6 +5,7 @@ ACCESSIBILITY_PRESS_KEY_TO_START	กด {0} เพื่อเริ่มเก
 ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	กด {0} เพื่อดำเนินการต่อ	0=key e.g. Press Enter to continue
 ACCESSIBILITY_PRESS_KEY_TO_FINISH	กด {0} เพื่อเสร็จสิ้น	0=key e.g. Press Enter to finish
 ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	กด {0} เพื่อย้อนกลับ	0=key e.g. Press backspace to go back
+ACCESSIBILITY_PRESS_KEY_TO_READ_DETAILS	กด {0} เพื่ออ่านรายละเอียดเพิ่มเติม	0=key e.g. Press space to read more details
 ACCESSIBILITY_PRESS_KEY_TO_EXIT	กด {0} เพื่อออก	0=key e.g. Press Enter to exit
 ACCESSIBILITY_PRESS_KEY_ONCE_DONE	กด {0} เมื่อคุณพร้อมแล้ว	0=key e.g. Press Enter once you're done
 
@@ -34,6 +35,7 @@ ACCESSIBILITY_HUB_MAIN_MENU_TITLE	เมนูหลัก
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	กด {0} ได้ตลอดเวลาเพื่อเรียกเมนูเกม ทดลองเลย	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	กด {0} ได้ตลอดเวลาเพื่อเรียกเมนูโซเชียล ทดลองเลย	0=F4 key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	กด {0} ได้ตลอดเวลาหากคุณติดปัญหา หากคุณต้องการความช่วยเหลือจากคนสายตาปกติ คุณสามารถกด {1} เพื่อปิดการเข้าถึงจากโปรแกรมอ่านหน้าจอ เพื่อให้เขาสามารถใช้ mouse ได้ตามปกติ อย่าลืมกด {1} เมื่อแก้ปัญหาได้แล้วเพื่อให้เข้าถึงกับโปรแกรมอ่านหน้าจอได้เหมือนเดิม	0=Esc key 1=F8 key
+ACCESSIBILITY_HUB_TAVERN_BRAWL_INACCESSIBLE	HearthstoneAccess ยังไม่รองรับเกมท้าปะลองปัจจุบัน. กรุณาลองใหม่อีกครั้งในภายหลัง	
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	กำลังโหลดเกม	
 ACCESSIBILITY_GLOBAL_CLOSING_GAME	กำลังปิดเกม	
@@ -226,6 +228,8 @@ ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	เกมกำ�
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	ตาย	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	ตาย	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	พัง	
+ACCESSIBILITY_GAMEPLAY_DIFF_AURA_FADED	จางหายไป	Paladin auras, objectives, etc
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_AURAS_FADED	จางหายไป	Paladin auras, objectives, etc
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	เปลี่ยนไปเป็น 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	เปลี่ยนไปเป็น 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TOOK_N_DAMAGE	ได้รับความเสียหาย {0} แต้ม	0=damage taken
@@ -540,6 +544,11 @@ ACCESSIBILITY_UI_REWARD_XP_BOOST	เพิ่ม {0}% ค่าประสบ�
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(มินิเซ็ต,มินิเซ็ต)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(สกินฮีโร่สนามรบ,สกินฮีโร่สนามรบ)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(สกิน guide สนามรบ,สกิน guide สนามรบ)	0=amount
+ACCESSIBILITY_UI_REWARD_DECK	Hearthstone เด็ค	
+ACCESSIBILITY_UI_REWARD_LOANER_DECKS	ได้รับเด็คยืมแล้ว!	
+ACCESSIBILITY_UI_REWARD_GAME_MODE	ปลดล็อคโหมดใหม่!	
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_STRENGTHS	จุดแข็ง: {0}	0=list of strengths of the class
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_WEAKNESSES	จุดอ่อน: {0}	0=list of weaknesses of the class
 
 ACCESSIBILITY_UI_SOCIAL_MENU_NAME	เมนูโซเชียล	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag ถูกก็อปปี้แล้ว	
@@ -550,10 +559,14 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	ส่งข้อความ
 ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	เชิญเข้าร่วมกลุ่ม battleground	
 ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	คุณไม่สามารถท้าแข่ง {0} ได้ในขณะนี้	
 
+ACCESSIBILITY_UI_REPORTING_POPUP_NO_SUBCOMPLAINTS_SELECTED	โปรดเลือกอย่างน้อยหนึ่งตัวเลือก	
+
 ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	ตรวจสอบเลเวลปัจจุบัน	
 ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} จาก {1} ค่าประสบการณ์เพื่อไปยังเลเวลถัดไป	
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	รับ {0} |4(รางวัล,รางวัล)	0=number of rewards e.g. Claim {5} rewards
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	คุณรับรางวัลสำหรับเลเวลนี้ไปแล้ว	
+ACCESSIBILITY_UI_REWARDS_TRACK_DECK_CHOICE_CONFIRMATION_PROMPT	คุณแน่ใจหรือไม่ที่จะเลือกเด็คนี้? กด {0} เพื่อยืนยันหรือ {1} เพื่อยกเลิก	0=enter key 1=backspace key
+ACCESSIBILITY_UI_REWARDS_TRACK_BROWSE_DECK_HELP	ใช้ปุ่มลูกศรเพื่อนเลื่อนดูการ์ดในเด็คนี้. กด {0} เพื่อเลือกหรือ {1} เพื่อย้อนกับไปยังรายการของเด็ค	0=enter key 1=backspace key
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	ตรวจสอบทอง	
 ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	ตรวจสอบหินรูน	
@@ -618,12 +631,15 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	กด {0} เพื�
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	กด {0} เพื่อสร้างเด็คที่กำหนดเองหรือกด {1} เพื่อเลือกสูตร	0=Enter key 1=Backspace key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	เพิ่มการ์ด	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	ดูเด็ค	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_SIDEBOARD_OPTION	ดูตู้	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_SIDEBOARD_OPTION	ดูตู้ไซด์บอร์ด	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_LOAD_SAVED_VERSION_OPTION	โหลดเวอร์ชันที่บันทึกไว้	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_BACK_TO_DECK_OPTION	ย้อนกลับไปที่เด็ค	Used when editing a sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	เด็คของคุณว่างเปล่า	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_SIDEBOARD	ตู้ไซด์บอร์ดนี้ว่างเปล่า	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	{0} จากทั้งหมด {1} การ์ดในเด็ค	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_SIDEBOARD	{0} จากทั้งหมด {1} การ์ดในตู้ไซด์บอร์ด	0=number of cards in sideboard 1=max number of cards in sideboard e.g. {10} of {30} cards in sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_INVALID_CARD	ไม่ถูกต้อง	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	ตู้ข้าง	Used in place of the deck name when editing a sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	ตู้ไซด์บอร์ด	Used in place of the deck name when editing a sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_FORMAT_CHANGED	เปลี่ยนรูปแบบแล้ว	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	ใช้ลูกศรเพื่ออ่านการ์ด กด {0} เพื่อข้ามไปมาระหว่างคลาส	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	กดตัวเลขเพื่อกรองการ์ดด้วยจำนวนมานา กด {0} เพื่อค้นหาในคอลเลกชั่นของคุณ	0=ctrl+f
@@ -666,6 +682,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	ใช้ลูกศรและกด {0} เพื่อบอกชื่อการ์ด	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	ใช้ลูกศรและกด {0} เพื่อบอกการ์ดทีละใบหรือกด {1} เพื่อบอกการ์ดทั้งหมดในหน้าปัจจุบัน	0=enter key 1=space key
+ACCESSIBILITY_SCREEN_PACK_OPENING_CATCHUP_PACK_OPENING_HELP	ใช้ปุ่มลูกศรเพื่อเลื่อนดูการ์ดใหม่. กด {0} เพื่อไปต่อ	0=enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	คุณไม่มีซองการ์ด	
 
 ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	คุณต้องการเปิดกี่ซอง? กรอกจำนวนระหว่าง {0} ถึง {1}	0=minimum value 1=maximum value
@@ -680,6 +697,7 @@ ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	ใช้ปุ่มลูกศ�
 
 ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	เปิดให้ยืมจนถึง {0}	
 
+ACCESSIBILITY_SCREEN_HEARTHSTONE_PLAY_HEARTHSTONE	เล่น Hearthstone	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	ตรวจสอบลำดับปัจจุบัน	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	คุณมีดาว {0} จากดาวทั้งหมด {1} |4(ดวง,ดวง)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	คุณมีดาวโบนัส {0} ดวง	0=current star bonus e.g. {2} star bonus
@@ -851,6 +869,15 @@ ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} จาก {1} ความส�
 ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	กด c เพื่อเข้าถึงคอลเลกชั่น	Available in some choose deck menus
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	เลเวล {0}: {1} ค่าประสบการณ์ที่ต้องการ	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, รางวัล: {0}	0 is text description of rewards. This is appended to the previous item.
+
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	เสร็จสมบูรณ์	
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_UNLOCK_REQUIREMENT	ความต้องการ {0}	0=unlock requirement e.g. Requires Apprentice Level 9.
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_SET_LABEL	{0}: {1}	0= quest set name 1=quest set description
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	คลาสที่แนะนำ: {0}	0=classes
+ACCESSIBILITY_TAVERN_GUIDE_NEW	ใหม่!	Spoken when the tavern guide has a new quest or reward
+ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	รับรางวัล!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
+
+ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	คุณได้รับรางวัล! กดรับได้ที่บันทึกส่วนตัว	
 
 ACCESSIBILITY_DUELS_READ_STATS	ตรวจสอบข้อมูลการเล่น	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	เลือกรูปแบบการต่อสู้	Choosing the type of duels (casual/heroic)

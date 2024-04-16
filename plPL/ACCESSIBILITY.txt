@@ -912,5 +912,7 @@ ACCESSIBILITY_UI_REPORTING_POPUP_NO_SUBCOMPLAINTS_SELECTED	Proszę wybrać przyn
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_LOAD_SAVED_VERSION_OPTION	Załaduj zapisaną wersję	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_SIDEBOARD	ta szafka jest pusta	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_SIDEBOARD	{0} z {1} kart w szafce	0=number of cards in sideboard 1=max number of cards in sideboard e.g. {10} of {30} cards in sideboard
+ACCESSIBILITY_GAMEPLAY_DIFF_AURA_FADED	wyblakła	Paladin auras, objectives, etc
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_AURAS_FADED	wyblakły	Paladin auras, objectives, etc
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS

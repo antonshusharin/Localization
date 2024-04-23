@@ -874,3 +874,40 @@ ACCESSIBILITY_TAVERN_GUIDE_NEW	Novo!	Spoken when the tavern guide has a new ques
 ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	Recolha a recompensa!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
 
 ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	Você ganhou uma recompensa! Recolha-a no diario	
+
+ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Tente outra vez	
+
+ACCESSIBILITY_NEW_TUTORIAL_NARRATOR_INTRO	Vou lhe ensinar a jogar através de uma serie de 3 tutoriais	
+
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_START	Seu primeiro oponente é um caçador chamado Rexxar. Você jogará como a poderosa maga Jaina Proudmore	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2	Bem, então... Este card é um lacaio que se chama Moreia de Mana	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2D	Ele possui um ponto de ataque e 2 de vida	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_0	Seu oponente invocou seu proprio lacaio	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_2	Pressione {0} para ver os lacaios do seu oponente	0=g
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_4	Agora vamos dar uma olhada nos seus lacaios. Pressione {0} para fazer isso	0=b
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_5	Quando ha mais de um lacaio, você pode usar as setas esquerda e direita para se mover entre eles	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_0	Você conseguiu um novo card. ¿Consegue descobrir o que ele faz?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_1	Este feitiço é perfeito para lidar com o Bufo! Pressione {0} para jogá-lo	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2	Seleccione o lacaio do seu oponente e pressione {0} para escolhê-lo como alvo	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2_HELP	Pressione {0} para ver o lacaio do seu oponente e {1} para escolhê-lo como alvo	0=G 1=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_3	Agora, vejamos como você pode ver a sua vida	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_5	Se o seu herói ficar sem vida, você perde	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_9	Sua Moreia de Mana está pronta para atacar. Selecione-a e pressione {0}.	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10	¿Consegue atacar o Herói do seu oponente?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10_HELP	Pressione {0} e {1} para atacar o Herói do seu oponente	0=F 1=Enter
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_11	¿Você lembra como terminar seu turno?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3	Você pode invocar o lacaio que acabou de conseguir, ou usar o que ja está no campo de batalha para executar um ataque	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_9	Ahora você está vendo a sua segunda opção, que seria a de atacar com o lacaio que está no seu campo de batalha	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	¡Os lacaios com a palabra chave  Investida podem atacar no mesmo turno no qual são invocados!	
+
+ACCESSIBILITY_NEW_TUTORIAL_GARROSH_TAUNT_HELP	Este valente casco sangrento que o seu oponente acabou de invocar possui uma habilidade chamada Provocar	
+
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_E	Seu oponente equipou a arma chamada Gélido Lamento, uma arma com 3 pontos de ataque e 5 de durabilidade	
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_F	Isto significa que o herói do seu oponente terá 3 pontos de ataque durante o  turno dele, e poderá atacar  qualquer dos seus personagens	
+
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_REXXAR	Você derrotou Rexxar	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_GARROSH	Você derrotou Garrosh Grito Infernal	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	¡Você derrotou o lich rei!	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	Seu primeiro oponente é Rexxar	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	Seu próximo oponente é Garrosh Grito Infernal	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_LICH_KING	Seu próximo e último oponente é o Lich rei	

@@ -1,4 +1,4 @@
- TAG	TEXT	COMMENT
+TAG	TEXT	COMMENT
 ACCESSIBILITY_WELCOME_TO_HEARTHSTONE	Witaj w Hearthstone	
 
 ACCESSIBILITY_PRESS_KEY_TO_START	Naciśnij {0} aby rozpocząć	0=key e.g. Press Enter to start

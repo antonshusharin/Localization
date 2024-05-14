@@ -797,7 +797,7 @@ ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	다시 시도
 ACCESSIBILITY_NEW_TUTORIAL_NARRATOR_INTRO	앞으로 3경기를 플레이하며 게임 조작법을 배워볼 것입니다.	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_START	첫번째 상대는 사냥꾼 렉사르입니다. 이제 강력한 마법사인 제이나 프라우드무어 입장에서 플레이하게 될 것입니다.	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2	이 카드는 하수인 카드인 '마나 지룡'입니다.	
-ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2D	이 하수인은 1의 생명력과 2의 공격력을 가지고 있습니다.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2D	이 하수인은 2의 생명력과 1의 공격력을 가지고 있습니다.	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_0	적이 하수인을 소환했습니다.	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_2	{0}키를 누르면 적 하수인을 확인할 수 있습니다.	0=g
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_4	이번에는 {0}키를 눌러 내 하수인을 확인해볼까요?	0=b

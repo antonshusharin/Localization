@@ -450,6 +450,21 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	กด {0} เพื�
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	กด {0} เพื่อตรวจสอบข้อมูลของคุณเอง	0=m key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	กด {0} เพื่อตรวจสอบเผ่าในเกมนี้	0=o key
 
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_QUERY_PASS_CARD	ผ่าน {0}?	0=card name e.g. Pass {Tarecgosa}?
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_SWITCH_TO_TEAMMATES_BOARD	กระดานเพื่อนร่วมทีม	Spoken when you switch to viewing your teammate's board in Duos
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_SWITCH_TO_PLAYERS_BOARD	กระดานของคุณ	Spoken when you switch to viewing your board in Duos
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_TEAMMATE_CHOSE_HERO	เพื่อนร่วมทีมของคุณเลือก {0}	0=hero name e.g. Your teammate chose {Al'Akir}
+
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_NO_PING	ไม่มีการ์ดที่มีปิง	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_ENTITY_PINGED	{0} ถูกปิงด้วย {1}	0=pinged card 1=ping type e.g. {Your teammate's Tarecgosa} is pinged with {Question mark}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_CARD_PINGED_LINE	ปิงด้วย {0}	0=ping type e.g. Pinged with {Question mark}
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_TEAMMATES_ENTITY_FULL_NAME	การ์ดเพื่อนร่วมทีมของคุณ {0}	0= card name e.g. Your teammate's Tarecgosa
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_EXCLAMATION	เครื่องหมายตกใจ	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_CHECK	เครื่องหมายถูก	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_CROSS	เครื่องหมายห้าม	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_WARP	ทางเข้า	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_QUESTION	เครื่องหมายคำถาม	
+
 ACCESSIBILITY_UI_POPUP	ป๊อปอัพ	
 ACCESSIBILITY_UI_REWARDS_TITLE	รางวัล	
 ACCESSIBILITY_UI_UNKNOWN_POPUP	ป๊อปอัพนี้ยังไม่ถูกทำให้เข้าถึงกับโปรแกรมอ่านหน้าจอ กรุณาขอความช่วยเหลือจากคนสายตาปกติ	
@@ -705,6 +720,8 @@ ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	คุณ�
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	ดูปาร์ตี้	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	ตรวจสอบข้อมูล	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	อธิบายการโจมตีระหว่างต่อสู้	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SWITCH_TO_DUOS	เปลี่ยนเป็นดูโอ้	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SWITCH_TO_SOLO	เปลี่ยนเป็นโซโล่	
 
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_WAITING	เชิญแล้ว	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_READY	พร้อมแล้ว	

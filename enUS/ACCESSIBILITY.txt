@@ -558,7 +558,9 @@ ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(custom coin,custom coins)	0=amount
 ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% XP boost	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini-set,Mini-sets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Battlegrounds Hero skin,Battlegrounds Hero skins)	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Battlegrounds guide skin,Battlegrounds guide skins)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Battlegrounds bartender,Battlegrounds bartenders)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_EMOTES	{0} |4(Battlegrounds emote,Battlegrounds emotes)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_STRIKES	{0} |4(Battlegrounds strike,Battlegrounds strikes)	0=amount
 ACCESSIBILITY_UI_REWARD_DECK	Hearthstone deck	
 ACCESSIBILITY_UI_REWARD_LOANER_DECKS	Loaner decks granted!	
 ACCESSIBILITY_UI_REWARD_GAME_MODE	New mode unlocked!	

@@ -559,6 +559,8 @@ ACCESSIBILITY_UI_REWARD_XP_BOOST	เพิ่ม {0}% ค่าประสบ�
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(มินิเซ็ต,มินิเซ็ต)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(สกินฮีโร่สนามรบ,สกินฮีโร่สนามรบ)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(สกิน guide สนามรบ,สกิน guide สนามรบ)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_EMOTES	{0} |4(อีโมติคอนสนามรบ,อีโมติคอนสนามรบ)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_STRIKES	{0} |4(การโจมตีสนามรบ,การโจมตีสนามรบ)	0=amount
 ACCESSIBILITY_UI_REWARD_DECK	Hearthstone เด็ค	
 ACCESSIBILITY_UI_REWARD_LOANER_DECKS	ได้รับเด็คยืมแล้ว!	
 ACCESSIBILITY_UI_REWARD_GAME_MODE	ปลดล็อคโหมดใหม่!	
@@ -572,6 +574,7 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	ส่งข้อความถึ�
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	พิมพ์ข้อความของคุณ	
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	ส่งข้อความ	
 ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	เชิญเข้าร่วมกลุ่ม battleground	
+ACCESSIBILITY_UI_SOCIAL_INVITE_TO_BRAWL	เชิญเข้าร่วมเกมท้าประลอง
 ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	คุณไม่สามารถท้าแข่ง {0} ได้ในขณะนี้	
 
 ACCESSIBILITY_UI_REPORTING_POPUP_NO_SUBCOMPLAINTS_SELECTED	โปรดเลือกอย่างน้อยหนึ่งตัวเลือก	
@@ -716,6 +719,11 @@ ACCESSIBILITY_SCREEN_HEARTHSTONE_PLAY_HEARTHSTONE	เล่น Hearthstone
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	ตรวจสอบลำดับปัจจุบัน	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	คุณมีดาว {0} จากดาวทั้งหมด {1} |4(ดวง,ดวง)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	คุณมีดาวโบนัส {0} ดวง	0=current star bonus e.g. {2} star bonus
+
+ACCESSIBILITY_SCREEN_TWIST_CARDS_IN_DECK	{0} การ์ดในเด็ค	0=number of cards
+ACCESSIBILITY_SCREEN_TWIST_HEROIC_DECK_LOCKED	ล็อคต้องใช้ {0}	0=name of card e.g. Locked, requires {King Krush}
+ACCESSIBILITY_SCREEN_TWIST_CRAFT_CARD	สร้าง {0}	0=Name of card e.g. Craft {King Krush}
+ACCESSIBILITY_SCREEN_TWIST_PASSIVE_ABILITY	ความสามารถติดตัว	
 
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	ดูปาร์ตี้	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	ตรวจสอบข้อมูล	

@@ -559,6 +559,8 @@ ACCESSIBILITY_UI_REWARD_XP_BOOST	Multiplicador de experiencia del {0}%	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini set,Mini sets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Aspecto de héroe de campos de batalla,Aspectos de héroe de campos de batalla)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Aspecto de posadero de campos de batalla,Aspectos de posadero de campos de batalla)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_EMOTES	{0} |4(Frase de campos de batalla,Frases de campos de batalla)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_STRIKES	{0} |4(Asalto de campos de batalla,Asaltos de campos de batalla)	0=amount
 ACCESSIBILITY_UI_REWARD_DECK	Mazo de Hearthstone	
 ACCESSIBILITY_UI_REWARD_LOANER_DECKS	¡Mazos de préstamo concedidos!	
 ACCESSIBILITY_UI_REWARD_GAME_MODE	¡Nuevo modo desbloqueado!	
@@ -572,6 +574,7 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Le dices a {0}: {1}	0=receiver name 1=
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Escribe un mensaje	
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Enviar mensaje	
 ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Invitar para un grupo de campos de Batalla	
+ACCESSIBILITY_UI_SOCIAL_INVITE_TO_BRAWL	Invitar a una pelea de taberna
 ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	Ahora mismo no puedes desafiar a {0}. Espera a que vuelva al menú principal	
 
 ACCESSIBILITY_UI_REPORTING_POPUP_NO_SUBCOMPLAINTS_SELECTED	Por favor selecciona al menos una de las opciones	
@@ -716,6 +719,11 @@ ACCESSIBILITY_SCREEN_HEARTHSTONE_PLAY_HEARTHSTONE	Juega a Hearthstone
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Leer el rango actual	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} de {1} |4(estrella,estrellas)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} bonificación de estrellas	0=current star bonus e.g. {2} star bonus
+
+ACCESSIBILITY_SCREEN_TWIST_CARDS_IN_DECK	{0} cartas en el mazo	0=number of cards
+ACCESSIBILITY_SCREEN_TWIST_HEROIC_DECK_LOCKED	Bloqueado, requiere {0}	0=name of card e.g. Locked, requires {King Krush}
+ACCESSIBILITY_SCREEN_TWIST_CRAFT_CARD	Crear {0}	0=Name of card e.g. Craft {King Krush}
+ACCESSIBILITY_SCREEN_TWIST_PASSIVE_ABILITY	Efecto pasivo	
 
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	Ver grupo	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Estadísticas	

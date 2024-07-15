@@ -122,6 +122,8 @@ ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET	Вы колдуете {0}	0=secret nam
 ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET_BIG_CARD	Вы колдуете {0}; {1}	0=secret name 1=card text e.g. You cast {Counterspell}; {Secret: When your opponent casts a spell, Counter it.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	Противник колдует 1 секрет {0}	0=secret class e.g. Your opponent cast 1 {mage} secret
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	Противник колдует {0} секретов	0=number of secrets e.g. Your opponent cast {2} secrets
+ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_LOCATION_BIG_CARD	Вы сыграли {0}; {1} прочности {2}	0=location name 1=location durability 2=card text e.g. You played {Muck Pools}; {3} durability {Transform a friendly minion into one that costs (1) more.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_LOCATION_BIG_CARD	Противник сыграл {0}; {1} прочности {2}	0=location name 1=location durability 2=card text e.g. Your opponent played {Muck Pools}; {3} durability {Transform a friendly minion into one that costs (1) more.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	Вы попытались взять карту из пустой колоды	
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	Противник попытался взять карту из пустой колоды	
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	Вы достали 1 {0}, Но карта сгорела	0=card e.g. You drew 1 {Fireball} but it burned
@@ -225,6 +227,10 @@ ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	Игра вот-�
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	погибает	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	погибают	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	ломается	
+ACCESSIBILITY_GAMEPLAY_DIFF_LOCATION_WAS_DESTROYED	разрушается	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_LOCATIONS_WERE_DESTROYED	разрушаются	
+ACCESSIBILITY_GAMEPLAY_DIFF_LOCATION_REOPENED	открывается	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_LOCATIONS_REOPENED	открываются	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	превращается в 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	превращаются в 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TOOK_N_DAMAGE	получает {0} урона	0=damage taken

@@ -436,6 +436,21 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Appuyez sur {0} pour 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Appuyez sur  {0} pour consulter vos statistiques	0=m key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Appuyez sur {0} pour consulter les races et anomalies présentes dans cette partie	0=o key
 
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_QUERY_PASS_CARD	Passer {0}?	0=card name e.g. Pass {Tarecgosa}?
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_SWITCH_TO_TEAMMATES_BOARD	Plateau de votre partenaire	Spoken when you switch to viewing your teammate's board in Duos
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_SWITCH_TO_PLAYERS_BOARD	Votre plateau	Spoken when you switch to viewing your board in Duos
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_TEAMMATE_CHOSE_HERO	Votre Partenaire choisit {0}	0=hero name e.g. Your teammate chose {Al'Akir}
+
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_NO_PING	Aucune carte épinglée	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_ENTITY_PINGED	{0} est épinglée avec {1}	0=pinged card 1=ping type e.g. {Your teammate's Tarecgosa} is pinged with {Question mark}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_CARD_PINGED_LINE	épinglée avec {0}	0=ping type e.g. Pinged with {Question mark}
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_TEAMMATES_ENTITY_FULL_NAME	{0} de votre partenaire	0= card name e.g. Your teammate's Tarecgosa
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_EXCLAMATION	Exclamation	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_CHECK	Coche	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_CROSS	Croix	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_WARP	Portail	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_QUESTION	Interrogation	
+
 ACCESSIBILITY_UI_POPUP	Notification	
 ACCESSIBILITY_UI_REWARDS_TITLE	Récompenses	
 ACCESSIBILITY_UI_UNKNOWN_POPUP	Cette fenêtre contextuelle n'a pas encore été rendu accessible. S'il vous plaît demander de l'aide a un voyant	
@@ -521,7 +536,7 @@ ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} Héros débloqué sur {1}	0=nu
 ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,copies de 1) carte	0=number of copies
 ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Apparence de héros,Apparences de héros)	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Dos de cartes,Dos de cartes)	0=amount
-ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Ticket pour l'arène,Tickets pour l'arènes)	0=amount
+ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Ticket pour l'arène,Tickets pour l'arène)	0=amount
 ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Pierre runique,pierres runiques)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Aventure,Aventures)	0=amount
 ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Ticket bras de fer,Tickets bras de fer)	0=amount
@@ -655,9 +670,16 @@ ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Lire rang actuel
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} sur {1} |4(étoile,étoiles)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} étoile bonus	0=current star bonus e.g. {2} star bonus
 
+ACCESSIBILITY_SCREEN_TWIST_CARDS_IN_DECK	{0} cartes dans le deck	0=number of cards
+ACCESSIBILITY_SCREEN_TWIST_HEROIC_DECK_LOCKED	Verrouillé, nécessite {0}	0=name of card e.g. Locked, requires {King Krush}
+ACCESSIBILITY_SCREEN_TWIST_CRAFT_CARD	Fabriquer {0}	0=Name of card e.g. Craft {King Krush}
+ACCESSIBILITY_SCREEN_TWIST_PASSIVE_ABILITY	Capacité pacive	
+
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	Voir les membres	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Consulter les statistiques	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	Lire les attaques durant la phase de combat	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SWITCH_TO_DUOS	Basculer en Duos	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SWITCH_TO_SOLO	Basculer en Solo	
 
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_WAITING	invité	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_READY	prêt	
@@ -818,7 +840,7 @@ ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Entrez	Facultatif. Remplace la touche Re
 
 ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Appuyez sur {0} pour basculer entre votre deck et les cartes proposées. 
 ACCESSIBILITY_ARENA_WINS_LOSSES	Victoires: {0}, Défaites: {1}	0 is wins, 1 is losses
-ACCESSIBILITY_MODES_ARENA	Arène	For use in the modes menu
+ACCESSIBILITY_MODES_ARENA	arène	For use in the modes menu
 
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	Sélectionnez une catégorie:
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Accomplis récemment:
@@ -835,6 +857,15 @@ ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	Appuyez sur c pour accéder à vo
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Niveau {0}: sur {1} expérience	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Récompenses: {0}	0 is text description of rewards. This is appended to the previous item.
 
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	Complétée	
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_UNLOCK_REQUIREMENT	Nécessite {0}	0=unlock requirement e.g. Requires Apprentice Level 9.
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_SET_LABEL	{0}: {1}	0= quest set name 1=quest set description
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	Classes recommandées: {0}	0=classes
+ACCESSIBILITY_TAVERN_GUIDE_NEW	Nouveau!	Spoken when the tavern guide has a new quest or reward
+ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	Réclamez votre récompense!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
+
+ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	Vous avez obtenu une récompense! Réclamez-la dans le journal	
+
 ACCESSIBILITY_DUELS_READ_STATS	Lire les statistiques	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	Choisissez un type de duels'	Choosing the type of duels (casual/heroic)
 ACCESSIBILITY_DUELS_LOSSES_COUNT	Défaites	Losses count in current duels run
@@ -845,3 +876,38 @@ ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Utulisez {0} et {1} pour vous déplacer ent
 ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	Votre session de duels est terminée. Appuyez sur {0} pour voir vos récompenses.	{0}=Enter key
 
 ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Réessayez	
+
+ACCESSIBILITY_NEW_TUTORIAL_NARRATOR_INTRO	Je vais vous apprendre à jouer à travers trois matchs tutoriels	
+
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_START	Votre premier adversaire est un chasseur nommé Rexxar. Vous incarnerez la puissante mage Jaina Portvaillant	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2	Bien, donc... Cette carte est un serviteur nommé Wyrme de Mana	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2D	Celui-ci a 1 attaque et 2 vie	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_0	Votre adversaire a invoqué l'un de ses serviteurs!	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_2	Appuyez sur {0} pour regarder les serviteurs adverses	0=g
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_4	Maintenant observons vos serviteurs. Appuyez sur {0} pour cela	0=b
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_5	Lorsqu'il y a plus d'un serviteur sur le champs de bataille, vous pouvez utilisez les flèches gauche et droite pour vous déplacer entre eux	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_0	Vous avez une nouvelle carte en main! Pouvez-vous en consulter les effets?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_1	Ce sort est parfait pour gérer le souffleur! Appuyez sur {0} pour le jouer	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2	Sélectionnez le serviteur adverse et appuyez sur {0} pour le cibler	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2_HELP	Appuyez sur {0} pour sélectionner un serviteur adverse et sur {1} pour le cibler	0=G 1=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_3	à présent, apprenons comment consulter votre vie	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_5	Si votre Héro tombe à court de vie, vous perdez	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_9	Votre wyrme de mana est à présent prête à attaquer. Sélectionnez-la et appuyez sur {0}.	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10	Pouvez-vous attaquer le héro adverse?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10_HELP	Appuyez sur {0} et {1} pour attaquer le héro adverse	0=F 1=Enter
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_11	Vous rappelez-vous comment mettre fin à votre tour?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3	Vous pouvez au choix invoquer le serviteur que vous avez en main, ou utiliser celui que vous avez déjà sur le champs de bataille pour déclarer une attaque	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_9	Vous regardez à présent  votre deuxième option, qui serait d'attaquer avec le serviteur vous avez sur le champs de bataille	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	Les serviteurs avec le mot clef Charge peuvent attaquer dès le tour où ils sont joués!	
+
+ACCESSIBILITY_NEW_TUTORIAL_GARROSH_TAUNT_HELP	Ce brave SabotDeSang que votre adversaire vient  d'invoquer dispose d'une capacité nommée Provocation	
+
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_E	Votre adversaire vient d'équiper DeuilGivre, une arme avec 3 d'attaque et 5 durabilité	
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_F	Cela signifie que le héro adverse aura 3 d'attaque pendant son tour, et qu'il pourra attaquer n'importe lequel de vos personnages	
+
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_REXXAR	Vous avez vaincu Rexxar	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_GARROSH	Vous avez vaincu Garrosh HurleEnfer	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	Vous avez vaincu le roi liche!	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	Votre prochain adversaire est Rexxar	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	Votre prochain adversaire est Garrosh HurleEnfer	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_LICH_KING	Votre prochain et ultime adversaire est le Roi liche	

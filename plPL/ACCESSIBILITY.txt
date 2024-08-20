@@ -934,11 +934,15 @@ ACCESSIBILITY_SCREEN_TWIST_CARDS_IN_DECK	{0} Kart w talii	0=number of cards
 ACCESSIBILITY_SCREEN_TWIST_HEROIC_DECK_LOCKED	Zablokowany, wymaga {0}	0=name of card e.g. Locked, 
 ACCESSIBILITY_SCREEN_TWIST_CRAFT_CARD	stwórz {0}	0=Name of card e.g. Craft {King Krush}
 ACCESSIBILITY_SCREEN_TWIST_PASSIVE_ABILITY	Umiejętność pasywna	
-ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_LOCATION_BIG_CARD	zagrałeś {0}; {1} wytrzymałości {2}	0=location name 1=location durability 2=card text e.g. You played {Muck Pools}; {3} durability {Transform a friendly minion into one that costs (1) more.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_LOCATION_BIG_CARD	Twój przeciwnik zagrał {0}; {1} wytrzymałości {2}	0=location name 1=location durability 2=card text e.g. Your opponent played {Muck Pools}; {3} durability {Transform a friendly minion into one that costs (1) more.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_LOCATION_BIG_CARD	zagrałeś {0}; {1} {2} wytrzymałości	0=location name 1=location durability 2=card text e.g. You played {Muck Pools}; {3} durability {Transform a friendly minion into one that costs (1) more.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_LOCATION_BIG_CARD	Twój przeciwnik zagrał {0}; {1} {2} wytrzymałości	0=location name 1=location durability 2=card text e.g. Your opponent played {Muck Pools}; {3} durability {Transform a friendly minion into one that costs (1) more.}
 ACCESSIBILITY_GAMEPLAY_DIFF_LOCATION_WAS_DESTROYED	została zniszczona	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_LOCATIONS_WERE_DESTROYED	zostały zniszczone	
 ACCESSIBILITY_GAMEPLAY_DIFF_LOCATION_REOPENED	ponownie otwarta	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_LOCATIONS_REOPENED	ponownie otwarte	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_PLAYER_TRINKETS	ozdoby	Read when you press q
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_OPPONENT_TRINKETS	ozdoby przeciwnika	Read when you press shift+q
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TRINKETS_HELP	Naciśnij {0}, aby przeczytać swoje ozdoby	0=q key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_BUY_TRINKET	Kup ozdobę!	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS

@@ -553,6 +553,7 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Message envoyé à {0}: {1}	0=receiver
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Taper un message	
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Envoyer un message	
 ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Inviter en champs de bataille	
+ACCESSIBILITY_UI_SOCIAL_INVITE_TO_BRAWL	Inviter en bras de fer
 ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	Vous ne pouvez pas défier {0} pour le moment.	
 
 ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Lire niveau actuel	
@@ -637,6 +638,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Utilisez le
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Utilisez les flèche et la touche {0} pour consulter toutes les pièces disponnibles.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Utilisez les flèches et la touche  {0} pour consulter tous les dos de cartes disponibles.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Utilisez les flèches et la touche {0} pour consulter toutes les apparences de héro disponibles.	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_BATTLEGROUNDS_HERO_SKINS_HELP	Utilisez les flèches et {0} pour consulter les apparences de héro disponnibles. Appuyez sur {1} pour basculer entre l'affichage des apparences possédées et toutes les apparences disponnibles.	0=Enter key 1=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Utilisez {0} pour ajouter des cartes dans votre deck	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Utilisez {0} pour enlever des cartes de votres deck	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Entrez un nouveau nom pour votre deck	
@@ -645,6 +647,8 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	Filtre activé pour {0} m
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Filtre par Mana désactivé	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Changer de set	Used for changing between standard 
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Apparence favorite du héro configurée	Spoken after setting a new favorite Hero Skin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_GUIDE_SKIN_SET	Barman favoris configuré 	Spoken after setting a new favorite bartender in Battlegrounds
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_FINISHER_SET	Frappe favorite configurée	Spoken after setting a new favorite strike in Battlegrounds
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	Dos de carte favoris configuré	Spoken after setting a new favorite Card Back
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Pièce favorite configurée	Spoken after setting a new favorite Coin
 
@@ -660,6 +664,12 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_NOT_ENOUGH_DUS
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REACHED	Vous ne pouvez pas fabriquer plus de copies de cette carte	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Carte confectionnée	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Désenchantée	
+
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_HERO_SKINS	Parcourir les apparences de héro	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_GUIDE_SKINS	Parcourir les barmans	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_FINISHERS	Parcourir les frappes	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNED	Apparences possédées:	Spoken when the battlegrounds collection is filtered to show only owned hero skins
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	Toutes les apparences:	Spoken when the battlegrounds collection is filtered to show all hero skins
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Utilisez les flèches et {0} pour révéler vos cartes	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Vous n'avez aucun paquets de cartes	
@@ -841,7 +851,7 @@ ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Entrez	Facultatif. Remplace la touche Re
 ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Appuyez sur {0} pour basculer entre votre deck et les cartes proposées. 
 ACCESSIBILITY_ARENA_WINS_LOSSES	Victoires: {0}, Défaites: {1}	0 is wins, 1 is losses
 ACCESSIBILITY_MODES_ARENA	arène	For use in the modes menu
-
+ACCESSIBILITY_ARENA_TICKETS_COUNT	Vous avez {0} tickets.	0 is number of tickets.
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	Sélectionnez une catégorie:
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Accomplis récemment:
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} points de haut fait sur {2} ({3}), {4} of {5} achievements completed	should be self explanatory, {0} is the category or subcategory name.

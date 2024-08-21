@@ -412,6 +412,8 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_CURRENT_AND_TOTAL	คุ�
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD	คุณมี {0} ทอง	0=current and total gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_REMAINING_GOLD	{0} ทองคงเหลือ	0=amount e.g. {3} gold remaining
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_MINIONS_FOR_SALE	มินเนี่ยนที่มีขาย	Read when you press g in the recruit phase
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_PLAYER_TRINKETS	เครื่องประดับ	Read when you press q
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_OPPONENT_TRINKETS	เครื่องประดับฝ่ายตรงข้าม	Read when you press shift+q
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_SEE_ZONE_MINIONS_FOR_SALE_EMPTY	No ไม่มีมินเนี่ยนที่จะขายแล้ว	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_MINION	ซื้อ {0}?	0=minion name e.g. Buy Tarecgosa?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_SELL_MINION	ขาย {0}?	0=minion name e.g. Sell Tarecgosa?
@@ -420,6 +422,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	แช่แ
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	ยกเลิกแช่แข็งโรงเตี๊ยม?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	รีเฟรชโรงเตี๊ยมใช้ {0} ทอง?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	อัพเกรดโรงเตี๊ยมใช้ {0} ทอง?	0=amount e.g. Upgrade tavern for 3 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_BUY_TRINKET	ซื้อเครื่องประดับ!	
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	ความผิดปกติ: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}
 
@@ -451,6 +454,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_HERO_BUDDY	ฮีโร่บัดด
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	กด {0} เพื่อตรวจสอบทอง	0=a key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	กด {0} เพื่อตรวจสอบข้อมูลโรงเตี๊ยมของคุณ	0=t key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	กด {0} เพื่อตรวจสอบฮีโร่บัดดี้ของคุณ	0=d key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TRINKETS_HELP	กด {0} เพื่ออ่านเครื่องประดับของคุณ	0=q key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	กด {0} เพื่อตรวจสอบข้อมูลของฝ่ายตรงข้าม	0=n key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	กด {0} เพื่อตรวจสอบกระดานผู้นำ	0=l key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	กด {0} เพื่อตรวจสอบข้อมูลของคุณเอง	0=m key

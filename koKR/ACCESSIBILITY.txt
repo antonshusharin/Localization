@@ -382,6 +382,8 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_CURRENT_AND_TOTAL	{0}골�
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD	{0}골드 보유 중	0=current and total gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_REMAINING_GOLD	{0}골드 남음	0=amount e.g. {3} gold remaining
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_MINIONS_FOR_SALE	판매 중인 하수인	Read when you press g in the recruit phase
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_PLAYER_TRINKETS	장신구	Read when you press q
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_OPPONENT_TRINKETS	적 장신구	Read when you press shift+q
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_SEE_ZONE_MINIONS_FOR_SALE_EMPTY	판매 중인 하수인 없음	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_MINION	{0} 하수인을 구매할까요?	0=minion name e.g. Buy Tarecgosa?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_SELL_MINION	{0} 하수인을 판매할까요?	0=minion name e.g. Sell Tarecgosa?
@@ -390,6 +392,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	{0}골드을
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	빙결을 중단할까요?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	{0}골드를 지불하고 다른 하수인 라인업을 가져올까요?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	{0}골드를 지불하고 선술집을 강화할까요?	0=amount e.g. Upgrade tavern for 3 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_BUY_TRINKET	장신구를 구입하세요!	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	변형물: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	끝으로 옮길까요?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	처음으로 옮길까요?	
@@ -415,6 +418,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_HERO_BUDDY	전우
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	남은 골드를 확인하려면 {0}키를 누르세요.	0=a key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	선술집 상태를 확인하려면 {0}키를 누르세요.	0=t key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	전우를 확인하려면 {0}키를 누르세요.	0=d key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TRINKETS_HELP	장신구를 확인하려면 {0}키를 누르세요.	0=q key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	다음 상대의 상태를 확인하려면 {0}키를 누르세요.	0=n key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	순위를 확인하려면 {0}키를 누르세요.	0=l key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	내 상태를 확인하려면 {0}키를 누르세요.	0=m key
@@ -694,7 +698,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_2_0	턴이 시작될 때마다 덱에서 카드 �
 ACCESSIBILITY_TUTORIAL_HOGGER_2_1	{0}키를 눌러 손에 있는 카드를 볼 수 있습니다.	0=c key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2	이 카드는 하수인 카드인 '멀록 약탈꾼'입니다.	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	이 카드를 내면 아군 영웅을 위해 싸우는 생명체를 소환합니다.	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	이 생명체를 소환하려면 마나 1이 필요하고, 공격력 1과 생명력 2를 가지고 있습니다.	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	이 생명체를 소환하려면 마나 1이 필요하고, 공격력 2와 생명력 1을 가지고 있습니다.	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_3	한번 소환해볼까요?	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_4	{0}키를 눌러 할 수 있습니다.	0=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_5	확인은 {0}키, 취소는 {1}키를 누르세요.	0=Enter key 1=Backspace key
@@ -825,7 +829,7 @@ ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	다시 시도
 ACCESSIBILITY_NEW_TUTORIAL_NARRATOR_INTRO	앞으로 3경기를 플레이하며 게임 조작법을 배워볼 것입니다.	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_START	첫번째 상대는 사냥꾼 렉사르입니다. 이제 강력한 마법사인 제이나 프라우드무어 입장에서 플레이하게 될 것입니다.	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2	이 카드는 하수인 카드인 '마나 지룡'입니다.	
-ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2D	이 하수인은 1의 생명력과 2의 공격력을 가지고 있습니다.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2D	이 하수인은 2의 생명력과 1의 공격력을 가지고 있습니다.	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_0	적이 하수인을 소환했습니다.	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_2	{0}키를 누르면 적 하수인을 확인할 수 있습니다.	0=g
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_4	이번에는 {0}키를 눌러 내 하수인을 확인해볼까요?	0=b

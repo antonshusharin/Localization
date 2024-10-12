@@ -598,6 +598,7 @@ ACCESSIBILITY_UI_REWARDS_TRACK_BROWSE_DECK_HELP	Use the arrow keys to browse the
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Read gold	
 ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	Read runestones	
+ACCESSIBILITY_UI_SHOP_READ_ARCANE_ORBS	Read arcane orbs	China only
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	Buy packs	
 ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Buy Mini-sets	
 ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Buy Hero skins	
@@ -606,12 +607,17 @@ ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Buy others
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Read description	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Buy for {0} gold	0=amount e.g. Buy for {100} gold
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	Buy for {0} runestones	0=amount e.g. Buy for {100} rrunestones
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_ARCANE_ORBS	Buy for {0} arcane orbs	China only, 0=amount e.g. Buy for {100} arcane orbs
 ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Get for free	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	Read cards	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Use the arrow keys to read the cards	
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} gold remaining	0=amount e.g. {150} gold remaining
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	{0} runestones remaining	0=amount e.g. {150} runestones remaining
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_ARCANE_ORBS_REMAINING	{0} arcane orbs remaining	0=amount e.g. {150} arcane orbs remaining
 ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	Not enough runestones	
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_ARCANE_ORBS	Not enough arcane orbs	China only
+ACCESSIBILITY_UI_SHOP_CURRENCY_CONVERSION_PAGE_HELP	Use the left and right arrow keys to adjust the amount of runestones you would like to convert	China only
+ACCESSIBILITY_UI_SHOP_CURRENCY_CONVERSION_PAGE_MAX_AMOUNT	You can convert up to {0} runestones into arcane orbs. One runestone costs 10 arcane orbs	China only. 0=Max amount
 
 ACCESSIBILITY_SCREEN_GO_BACK	Go back	
 

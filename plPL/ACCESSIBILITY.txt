@@ -944,5 +944,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_PLAYER_TRINKETS	ozdoby	Read when you p
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_OPPONENT_TRINKETS	ozdoby przeciwnika	Read when you press shift+q
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TRINKETS_HELP	Naciśnij {0}, aby przeczytać swoje ozdoby	0=q key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_BUY_TRINKET	Kup ozdobę!	
+ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_INTRO	Kawałki statku kosmicznego	
+ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_HELP	Użyj klawiszy strzałek, aby odczytać części statku kosmicznego, naciśnij {0}, aby wystartować, lub {1}, aby przerwać	0=Enter key 1=Backspace key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS

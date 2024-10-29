@@ -227,6 +227,9 @@ ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_NOT_BE_REPLACED	Will not be replaced
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP	Use the arrow keys to go through your starting cards. Use {0} to mark the cards you'd like to replace. Press {1} once you're done	0=spacebar key 1=Enter key
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	The game is about to start. Please wait	
 
+ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_INTRO	Starship pieces	
+ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_HELP	Use the arrow keys to read the pieces of the starship, press {0} to launch or {1} to abort	0=Enter key 1=Backspace key
+
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	died	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	died	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	broke	

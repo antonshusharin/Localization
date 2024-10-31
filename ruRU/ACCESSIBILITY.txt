@@ -224,6 +224,9 @@ ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_NOT_BE_REPLACED	Не будет замен�
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP	Используйте клавиши со стрелками, чтобы просмотреть свои стартовые карты. Используйте {0}, чтобы отметить карты, которые вы хотите заменить. Когда закончите, нажмите {1}	0=spacebar key 1=Enter key
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	Игра вот-вот начнется. Пожалуйста, подождите	
 
+ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_INTRO	Части звездолёта	
+ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_HELP	Используйте клавиши со стрелками, чтобы просмотреть части звездолёта. Нажмите {0} для запуска или {1} для отмены.	0=Enter key 1=Backspace key
+
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	погибает	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	погибают	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	ломается	

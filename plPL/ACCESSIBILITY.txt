@@ -946,5 +946,9 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TRINKETS_HELP	Naciśnij {0}, ab
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_BUY_TRINKET	Kup ozdobę!	
 ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_INTRO	Kawałki statku kosmicznego	
 ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_HELP	Użyj klawiszy strzałek, aby odczytać części statku kosmicznego, naciśnij {0}, aby wystartować, lub {1}, aby przerwać	0=Enter key 1=Backspace key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REROLL_HERO	zamień za {0} |4(żeton,żetony)?	0=amount e.g. Reroll for {1} token? 
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TOKENS	masz {0} |4(żeton,żetonów)	0=amount e.g. You have 5 tokens
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_HERO_REROLL_HELP	Naciśnij {0} aby zmienić  aktualnego bohatera	0=R key
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_TOKENS	{0} |4(żeton ustawki,żetonów ustawki)	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS

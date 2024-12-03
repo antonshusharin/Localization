@@ -416,6 +416,8 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	Заморо
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	Разморозить таверну?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	Обновить таверну за {0} золота?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	Улучшить таверну за {0} золота?	0=amount e.g. Upgrade tavern for 3 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REROLL_HERO	Заменить за {0} |4(жетон,жетона,жетонов)?	0=amount e.g. Reroll for {1} token?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TOKENS	У вас {0} |4(жетон,жетона,жетонов)	0=amount e.g. You have 5 tokens
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_BUY_TRINKET	Купите аксессуар!	
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	Аномалия: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}
@@ -453,6 +455,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Нажмит�
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Нажмите {0}, чтобы просмотреть таблицу лидеров	0=l key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Нажмите {0}, чтобы узнать свою статистику	0=m key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Нажмите {0}, чтобы узнать типы существ в этой игре	0=o key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_HERO_REROLL_HELP	Нажмите {0}, чтобы заменить текущего героя	0=R key
 
 ACCESSIBILITY_UI_POPUP	Всплывающее окно	
 ACCESSIBILITY_UI_REWARDS_TITLE	Награды	
@@ -553,6 +556,8 @@ ACCESSIBILITY_UI_REWARD_LOANER_DECKS	Временные Колоды предо�
 ACCESSIBILITY_UI_REWARD_GAME_MODE	Разблокирован новый режим!	
 ACCESSIBILITY_UI_REWARD_NEW_CLASS_STRENGTHS	Сильные стороны: {0}	0=list of strengths of the class
 ACCESSIBILITY_UI_REWARD_NEW_CLASS_WEAKNESSES	Слабые стороны: {0}	0=list of weaknesses of the class
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_TOKENS	{0} |4(жетон полей сражений,жетона полей сражений,жетонов полей сражений)	0=amount of tokens e.g. {4} Battlegrounds tokens
+
 
 ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Социальное меню	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag скопирован в буфер обмена	

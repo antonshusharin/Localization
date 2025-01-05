@@ -227,6 +227,9 @@ ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_NOT_BE_REPLACED	No será reemplazada
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP	Utiliza las flechas para revisar tus cartas iniciales y {0} para marcar las que te gustaría reemplazar. Pulsa {1} una vez que hayas terminado	0=spacebar key 1=Enter key
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	El juego está a punto de empezar. Espera por favor	
 
+ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_INTRO	Piezas de nave	
+ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_HELP	Usa las flechas para ver las piezas de la nave, pulsa {0} para lanzarla o {1} para abortar	0=Enter key 1=Backspace key
+
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	Fue destruído	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	Fueron destruídos	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	se rompió	
@@ -422,6 +425,8 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	¿Congelar t
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	¿Descongelar taberna?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	¿Refrescar taberna por {0} de oro?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	¿Actualizar taberna por {0} de oro?	0=amount e.g. Upgrade tavern for 3 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REROLL_HERO	Regenera por {0} |4(ficha,fichas)?	0=amount e.g. Reroll for {1} token?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TOKENS	Tienes {0} |4(ficha,fichas)	0=amount e.g. You have 5 tokens
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_BUY_TRINKET	¡Comprar un abalorio!	
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	Anomalía: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}
@@ -459,6 +464,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Pulsa {0} par
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Pulsa {0} para ver la clasificación general	0=l key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Pulsa {0} para ver tus estadísticas	0=m key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Pulsa {0} para ver los tipos de esbirros y la anomalía de esta partida 	0=o key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_HERO_REROLL_HELP	Pulsa {0} para regenerar el héroe	0=R key
 
 ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_QUERY_PASS_CARD	Passar {0}?	0=card name e.g. Pass {Tarecgosa}?
 ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_SWITCH_TO_TEAMMATES_BOARD	Mesa de tu compañero	Spoken when you switch to viewing your teammate's board in Duos
@@ -576,6 +582,7 @@ ACCESSIBILITY_UI_REWARD_LOANER_DECKS	¡Mazos de préstamo concedidos!
 ACCESSIBILITY_UI_REWARD_GAME_MODE	¡Nuevo modo desbloqueado!	
 ACCESSIBILITY_UI_REWARD_NEW_CLASS_STRENGTHS	Fortalezas: {0}	0=list of strengths of the class
 ACCESSIBILITY_UI_REWARD_NEW_CLASS_WEAKNESSES	Debilidades: {0}	0=list of weaknesses of the class
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_TOKENS	{0} |4(Ficha de campos de batalla,Fichas de campos de batalla)	0=amount of tokens e.g. {4} Battlegrounds tokens
 
 ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Panel Social	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copiado al portapapeles	
@@ -598,6 +605,7 @@ ACCESSIBILITY_UI_REWARDS_TRACK_BROWSE_DECK_HELP	Utiliza las flechas para moverte
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Ver tu oro actual	
 ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	Ver tus piedras rúnicas	
+ACCESSIBILITY_UI_SHOP_READ_ARCANE_ORBS	Ver tus orbes arcanos	China only
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	Comprar sobres	
 ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Comprar Mini-sets	
 ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Comprar aspectos de héroe	
@@ -606,12 +614,17 @@ ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Comprar otros
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Leer descripción	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Comprar por {0} de oro	0=amount e.g. Buy for {100} gold
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	Comprar por {0} piedras rúnicas	0=amount e.g. Buy for {100} rrunestones
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_ARCANE_ORBS	Comprar por {0} orbes arcanos	China only, 0=amount e.g. Buy for {100} arcane orbs
 ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Obtener gratis	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	Ver cartas	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Utiliza las flechas para ver las cartas	
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} de oro restante	0=amount e.g. {150} gold remaining
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	{0} piedras rúnicas restantes	0=amount e.g. {150} runestones remaining
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_ARCANE_ORBS_REMAINING	{0} orbes arcanos restantes	0=amount e.g. {150} arcane orbs remaining
 ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	Sin piedras rúnicas suficientes	
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_ARCANE_ORBS	Sin orbes arcanos	China only
+ACCESSIBILITY_UI_SHOP_CURRENCY_CONVERSION_PAGE_HELP	Usa las flechas para ajustar la cantidad de piedras rúnicas que quieres convertir	China only
+ACCESSIBILITY_UI_SHOP_CURRENCY_CONVERSION_PAGE_MAX_AMOUNT	Puedes convertir {0} piedras rúnicas en orbes arcanos. Una piedra rúnica equivale a 10 orbes arcanos	China only. 0=Max amount
 
 ACCESSIBILITY_SCREEN_GO_BACK	Atrás	
 
@@ -956,7 +969,7 @@ ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_E	Tu oponente se equip
 ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_F	Esto significa que el Héroe de tu oponente tendrá 3puntos de ataque durante su turno, y podrá atacar a cualquiera de tus personajes	
 
 ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_REXXAR	Has derrotado a Rexxar	
-ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_GARROSH	Has derrotadoa  Garrosh Grito Infernal	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_GARROSH	Has derrotado a Garrosh Grito Infernal	
 ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	¡Has derrotado al Rey Exánime!	
 ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	Tu primer oponente es Rexxar	
 ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	Tu próximo oponente es Garrosh Grito Infernal	

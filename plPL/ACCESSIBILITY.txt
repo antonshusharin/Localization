@@ -950,5 +950,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REROLL_HERO	zamień za {0} |4(żeton,
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TOKENS	masz {0} |4(żeton,żetonów)	0=amount e.g. You have 5 tokens
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_HERO_REROLL_HELP	Naciśnij {0} aby zmienić  aktualnego bohatera	0=R key
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_TOKENS	{0} |4(żeton ustawki,żetonów ustawki)	
+ACCESSIBILITY_GAMEPLAY_READ_STARSHIP_LAUNCH_COST	{0} many do wystrzelenia statku kosmicznego	0=launch cost e.g. {5} mana to launch starship
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FASTEST	Najszybszy	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS

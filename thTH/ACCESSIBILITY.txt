@@ -186,6 +186,7 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_CURRENT_AND_TOTAL	ฝ่ายตร�
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	ฝ่ายตรงข้ามมี {0} มานา	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |4(ศพ,ศพ)	0=current amount of corpses
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	ไม่มีศพ
+ACCESSIBILITY_GAMEPLAY_READ_STARSHIP_LAUNCH_COST	{0} มานาเพื่อปล่อยยานอวกาศ	0=launch cost e.g. {5} mana to launch starship
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	บนมือฝ่ายตรงข้ามมี {0} |4(ใบ,ใบ)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	ในเด็คของคุณมี {0} |4(ใบ,ใบ)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	ในเด็คของฝ่ายตรงข้ามมี {0} |4(ใบ,ใบ)	0=number of cards
@@ -226,6 +227,9 @@ ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_BE_REPLACED	ถูกแทนที่
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_NOT_BE_REPLACED	ไม่ถูกแทนที่	
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP	ใช้ลูกศรซ้ายหรือลูกศรขวาเพื่อเลื่อนการ์ด กด {0} เพื่อทำเครื่องหมายของการ์ดที่คุณจะเปลี่ยน กด {1} เพื่อยืนยันเมื่อคุณทำเสร็จแล้ว	0=spacebar key 1=Enter key
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	เกมกำลังจะเริ่มแล้วกรุณารอสักครู่	
+
+ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_INTRO	ชิ้นส่วนยานอวกาศ	
+ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_HELP	ใช้ปุ่มลูกศรเพื่ออ่านชิ้นส่วนของยานอวกาศกด {0} เพื่อปล่อยหรือกด {1} เพื่อยกเลิก	0=Enter key 1=Backspace key
 
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	ตาย	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	ตาย	Singular and plural are often the same in English
@@ -422,6 +426,8 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	แช่แ
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	ยกเลิกแช่แข็งโรงเตี๊ยม?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	รีเฟรชโรงเตี๊ยมใช้ {0} ทอง?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	อัพเกรดโรงเตี๊ยมใช้ {0} ทอง?	0=amount e.g. Upgrade tavern for 3 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REROLL_HERO	หมุนซ้ำใช้ {0} |4(โทเค็น,โทเค็น)?	0=amount e.g. Reroll for {1} token?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TOKENS	คุณมี {0} |4(โทเค็น,โทเค็น)	0=amount e.g. You have 5 tokens
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_BUY_TRINKET	ซื้อเครื่องประดับ!	
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	ความผิดปกติ: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}

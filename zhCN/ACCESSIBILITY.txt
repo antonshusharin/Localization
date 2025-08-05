@@ -63,9 +63,9 @@ ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	关闭辅助功能	Read when F8 is presse
 ACCESSIBILITY_GLOBAL_STREAMER_MODE_ON	流媒体模式开启	Read when Ctrl+Shift+S is pressed and streamer mode is turned on
 ACCESSIBILITY_GLOBAL_STREAMER_MODE_OFF	流媒体模式关闭	Read when Ctrl+Shift+S is pressed and streamer mode is turned off
 
-ACCESSIBILITY_FORMATTING_PERIOD	.	
-ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	.!?;	
-ACCESSIBILITY_FORMATTING_LIST_SEPARATOR	,	e.g. the ", " in A, B, C, D and E
+ACCESSIBILITY_FORMATTING_PERIOD	。	
+ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	。！？；	
+ACCESSIBILITY_FORMATTING_LIST_SEPARATOR	、	e.g. the ", " in A, B, C, D and E
 ACCESSIBILITY_FORMATTING_LIST_FINAL_SEPARATOR	和	e.g. the " and " in A, B, C, D and E
 
 ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_1	第一	Languages with grammatical genders can work around using digits and configure text that uses ordinal numbers such as "minion number 1" instead of "first minion"
@@ -187,7 +187,7 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_CURRENT_AND_TOTAL	你的对手剩余{0
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	你的对手有{0}法力水晶	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |4(残骸,残骸)	0=current amount of corpses
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	没有残骸	
-ACCESSIBILITY_GAMEPLAY_READ_STARSHIP_LAUNCH_COST	{0} 法力水晶发射星舰	0=launch cost e.g. {5} mana to launch 
+ACCESSIBILITY_GAMEPLAY_READ_STARSHIP_LAUNCH_COST	发射星箭需要{0} 法力水晶	0=launch cost e.g. {5} mana to launch 
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	对手的手中 {0}张卡	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	牌库{0}张卡	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	对手的牌库{0}张卡	0=number of cards

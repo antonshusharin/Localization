@@ -907,21 +907,21 @@ ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	eye	Optional. Overrides the I key to be read 
 ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Press {0} to switch between viewing your current deck and choosing a new card to add. 
 ACCESSIBILITY_ARENA_WINS_LOSSES	Wins: {0}, Losses: {1}	0 is wins, 1 is losses
 ACCESSIBILITY_MODES_ARENA	Arena	For use in the modes menu
-ACCESSIBILITY_ARENA_TICKETS_COUNT	You have {0} tickets.	0 is number of tickets.
 ACCESSIBILITY_ARENA_RATING	Rating: {0}	0 is arena rating pulled from datamodel
 ACCESSIBILITY_ARENA_TICKETS_COUNT	You have {0} tickets.	0 is number of tickets.
 ACCESSIBILITY_ARENA_BEGIN_NEW_NORMAL_RUN	Begin a new normal run of the arena.	Button to start a new standard arena run.
 ACCESSIBILITY_ARENA_BEGIN_NEW_UNDERGROUND_RUN	Begin a new underground run of the arena.	Button to start a new underground arena run.
 ACCESSIBILITY_ARENA_RETIRE_BUTTON	Retire.	Retire button.
-ACCESSIBILITY_ARENA_HELP_DRAFTING_HERO	Once you have selected a hero, press {0} to confirm your choice.	Confirm hero draft in arena help.
-ACCESSIBILITY_ARENA_NO_HERO_TO_DRAFT_ERROR	You have not yet selected a hero. Navigate to your desired hero and hit enter before confirming your choice by pressing {0}.	Help for drafting hero in arena.
+ACCESSIBILITY_ARENA_HELP_DRAFTING_HERO	Once you have selected a hero press {0} on the same hero to confirm the choice. If you wish to change your mind before confirming select any other hero to cancel the action, or press {1}.	Help for hero drafting.
+ACCESSIBILITY_ARENA_HERO_SELECTED_PROMPT	If you wish to continue with this hero, press {0}. If you wish to choose another, press {1}.	0 is confirm 1 is back.
 ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME	Welcome to the arena!	No run title for arena.
 ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME_BACK	Welcome back to the arena!	Run in progress title for arena.
 ACCESSIBILITY_ARENA_MENU_TITLE_RUN_COMPLETE	Run complete!	Run is over menu.
-ACCESSIBILITY_ARENA_CLAIM_REWARDS	Claim rewards.	Claim arena run rewards menu option.
+ACCESSIBILITY_ARENA_CLAIM_REWARDS	Claim {0} rewards!	Claim arena run rewards, 0 is number of packages.
 ACCESSIBILITY_ARENA_CHANGE_TO_NORMAL_MODE	Switch to normal arena mode.	Switch to normal mode button.
 ACCESSIBILITY_ARENA_CHANGE_TO_UNDERGROUND_MODE	Switch to the underground arena mode.	Switch to underground mode button.
-ACCESSIBILITY_ARENA_DRAFT_PACKAGE_HELP	Press {0} to select this package, or press {1} to go back and choose another.	Package selection help in arena.
+ACCESSIBILITY_ARENA_DRAFT_PACKAGE_HELP	Use the left and right arrow keys to navigate the menu. Use the up and down arrow keys to read the options. This is a package of cards that you will automatically draft the entirety of if you select this package. Press {0} to select this package, or press {1} to go back and choose another.	Package selection help in arena, 0 is confirm and 1 is back.
+ACCESSIBILITY_ARENA_EMPTY_DECK	You have not yet drafted any cards.	No deck to view.
 
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	Select Category:
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Recently Completed:

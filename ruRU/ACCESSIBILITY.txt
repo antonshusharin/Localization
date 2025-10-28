@@ -883,7 +883,21 @@ ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key
 ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Нажмите {0} для переключения между просмотром вашей текущей колоды и выбором новой карты для добавления.
 ACCESSIBILITY_ARENA_WINS_LOSSES	Побед: {0}, Поражений: {1}	0 is wins, 1 is losses
 ACCESSIBILITY_MODES_ARENA	Арена	For use in the modes menu
+ACCESSIBILITY_ARENA_RATING	Рейтинг: {0}	0 is arena rating pulled from datamodel
 ACCESSIBILITY_ARENA_TICKETS_COUNT	У вас {0} |4(билет,билета,билетов).	0 is number of tickets.
+ACCESSIBILITY_ARENA_BEGIN_NEW_NORMAL_RUN	Начать серию на обычной арене	Button to start a new standard arena run.
+ACCESSIBILITY_ARENA_BEGIN_NEW_UNDERGROUND_RUN	НАчать серию на подпольной арене	Button to start a new underground arena run.
+ACCESSIBILITY_ARENA_RETIRE_BUTTON	Отступить	Retire button.
+ACCESSIBILITY_ARENA_HELP_DRAFTING_HERO	После выбора героя нажмите {0} для подверждения. Если вы передумали, выберите любого другого героя или нажмите {1} для отмены	Help for hero drafting.
+ACCESSIBILITY_ARENA_HERO_SELECTED_PROMPT	Нажмите {0}, чтобы продолжить с этим героем, или {1} для отмены	0 is confirm 1 is back.
+ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME	Добро пожаловать на арену!	No run title for arena.
+ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME_BACK	С возвращением на арену!	Run in progress title for arena.
+ACCESSIBILITY_ARENA_MENU_TITLE_RUN_COMPLETE	Серия завершена!	Run is over menu.
+ACCESSIBILITY_ARENA_CLAIM_REWARDS	Забрать {0} |4(награду,награды,наград)!	Claim arena run rewards, 0 is number of packages.
+ACCESSIBILITY_ARENA_CHANGE_TO_NORMAL_MODE	Перейти в обычный режим	Switch to normal mode button.
+ACCESSIBILITY_ARENA_CHANGE_TO_UNDERGROUND_MODE	Перейти в подпольный режим	Switch to underground mode button.
+ACCESSIBILITY_ARENA_DRAFT_PACKAGE_HELP	Используйте стрелки вправо и влево для навигации по меню. Используйте стрелки вверх и вниз, чтобы прочитать карты. Это группа карт, которая будет целиком добавлена в вашу колоду. Нажмите {0}, чтобы выбрать эту группу, или {1}, чтобы вернуться назад и выбрать другую.	Package selection help in arena, 0 is confirm and 1 is back.
+ACCESSIBILITY_ARENA_EMPTY_DECK	Нет карт	No deck to view.
 
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	Выберите категорию:
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Недавно завершенные:

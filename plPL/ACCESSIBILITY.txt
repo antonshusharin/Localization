@@ -953,5 +953,18 @@ ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_TOKENS	{0} |4(żeton ustawki,żetonów u
 ACCESSIBILITY_GAMEPLAY_READ_STARSHIP_LAUNCH_COST	{0} many do wystrzelenia statku kosmicznego	0=launch cost e.g. {5} mana to launch starship
 ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FASTEST	Najszybszy	
 ACCESSIBILITY_GAMEPLAY_READ_STARSHIP_LAUNCH_COST	{0} many do wystrzelenia statku kosmicznego	0=launch cost e.g. {5} mana to launch starship
+ACCESSIBILITY_ARENA_RATING	Ocena, {0}	0 is arena rating pulled from datamodel
+ACCESSIBILITY_ARENA_BEGIN_NEW_NORMAL_RUN	Rozpocznij nową, normalną rundę na arenie.	Button to start a new standard arena run.
+ACCESSIBILITY_ARENA_BEGIN_NEW_UNDERGROUND_RUN	Rozpocznij nową podziemną wyprawę na arenię.	Button to start a new underground arena run.
+ACCESSIBILITY_ARENA_RETIRE_BUTTON	Poddaj się.	Retire button.
+ACCESSIBILITY_ARENA_HELP_DRAFTING_HERO	Po wybraniu bohatera naciśnij {0}, aby potwierdzić wybór.	Confirm hero draft in arena help.
+ACCESSIBILITY_ARENA_NO_HERO_TO_DRAFT_ERROR	Nie wybrałeś jeszcze bohatera. Przejdź do wybranego bohatera i naciśnij Enter, a następnie potwierdź wybór, naciskając {0}.	Help for drafting hero in arena.
+ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME	Witamy na arenie!	No run title for arena.
+ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME_BACK	Witamy ponownie na arenie!	Run in progress title for arena.
+ACCESSIBILITY_ARENA_MENU_TITLE_RUN_COMPLETE	Arena zakończona!	Run is over menu.
+ACCESSIBILITY_ARENA_CLAIM_REWARDS	Odbierz nagrody.	Claim arena run rewards menu option.
+ACCESSIBILITY_ARENA_CHANGE_TO_NORMAL_MODE	Przełącz na normalny tryb areny.	Switch to normal mode button.
+ACCESSIBILITY_ARENA_CHANGE_TO_UNDERGROUND_MODE	Przełącz na tryb areny podziemnej.	Switch to underground mode button.
+ACCESSIBILITY_ARENA_DRAFT_PACKAGE_HELP	Naciśnij {0}, aby wybrać ten zestaw, albo {1}, aby wrócić i wybrać inny.	Package selection help in arena.
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS

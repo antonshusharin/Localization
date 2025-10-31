@@ -966,5 +966,6 @@ ACCESSIBILITY_ARENA_CLAIM_REWARDS	Odbierz nagrody.	Claim arena run rewards menu 
 ACCESSIBILITY_ARENA_CHANGE_TO_NORMAL_MODE	Przełącz na normalny tryb areny.	Switch to normal mode button.
 ACCESSIBILITY_ARENA_CHANGE_TO_UNDERGROUND_MODE	Przełącz na tryb areny podziemnej.	Switch to underground mode button.
 ACCESSIBILITY_ARENA_DRAFT_PACKAGE_HELP	Naciśnij {0}, aby wybrać ten zestaw, albo {1}, aby wrócić i wybrać inny.	Package selection help in arena.
+ACCESSIBILITY_GAMEPLAY_QUERY_REWIND	Cofnięcie?	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS

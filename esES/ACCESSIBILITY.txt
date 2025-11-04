@@ -30,6 +30,7 @@ ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED	Velocidad de autoataque: {0}	Menú 
 ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_SLOW	Lento	
 ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_MEDIUM	Medio	
 ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FAST	Rápido	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FASTEST	Mas rápido	
 
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menú principal	
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Pulsa {0} en cualquier momento para abrir el menú del juego. ¡Inténtalo ahora!	0=Esc key
@@ -99,6 +100,7 @@ ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} -edicióm distintiva	0=car
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Turno del oponente	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Turno terminado	
 ACCESSIBILITY_GAMEPLAY_CHOICES_HIDDEN	Elecciones ocultas	
+ACCESSIBILITY_GAMEPLAY_QUERY_REWIND	¿Rebobinar?	
 ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	El efecto de {0} se ha activado	0=full card name in zone e.g. {Your second Murloc Raider} triggered
 ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	El efecto de tu {0} se ha activado	0=card name e.g. Your {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	El efecto de {0} del oponente se ha activado	0=card name e.g. Your opponent's {Psyfiend} triggered
@@ -186,6 +188,7 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_CURRENT_AND_TOTAL	Tu oponente tiene {0
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	Tu oponente tiene {0} maná	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |4(cadáver,cadáveres)	0=current amount of corpses
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	sin cadáveres
+ACCESSIBILITY_GAMEPLAY_READ_STARSHIP_LAUNCH_COST	{0} maná para lanzar la nave	0=launch cost e.g. {5} mana to launch starship
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	Mano del oponente. {0} |4(carta,cartas)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	Mazo. {0} |4(carta,cartas)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Mazo del oponente. {0} |4(carta,cartas)	0=number of cards
@@ -379,8 +382,10 @@ ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	pulsa {0} para obtener una descrip
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	pulsa {0} para jugar esta carta	0=Enter key
 ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Pulsa {0} para comerciar esta carta	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	pulsa {0} para invocar este esbirro	0=Enter key
+ACCESSIBILITY_GAMEPLAY_POSITION_LOCATION_HELP	Pulsa {0} para colocar esta ubicación	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Utiliza las flechas para revisar tus opciones. Pulsa {0} para escoger una	0=Enter key
 ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	Utiliza las teclas correspondientes a cada zona para inspeccionar el estado del tablero de juego. Pulsa {0} para volver a las opciones	0=tab key
+ACCESSIBILITY_GAMEPLAY_REWIND_MODE_HELP	Utiliza las teclas correspondientes a cada zona para inspeccionar el estado del tablero de juego. Pulsa {0} para rebobinar, o {1} para mantener el estado actual.	0=U key 1=J key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Utiliza {0} o las teclas correspondientes a cada zona para desplazarte por tus posibles objetivos y presiona {1} para seleccionar uno o {2} para cancelar	0=Tab key 1=Enter key 2=Backspace key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Pulsa {0} para atacar con este esbirro	0=Enter key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Pulsa {0} para atacar con tu héroe	0=Enter key
@@ -425,7 +430,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	¿Congelar t
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	¿Descongelar taberna?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	¿Refrescar taberna por {0} de oro?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	¿Actualizar taberna por {0} de oro?	0=amount e.g. Upgrade tavern for 3 gold?
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REROLL_HERO	Regenera por {0} |4(ficha,fichas)?	0=amount e.g. Reroll for {1} token?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REROLL_HERO	¿Regenerar por {0} |4(ficha,fichas)?	0=amount e.g. Reroll for {1} token?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TOKENS	Tienes {0} |4(ficha,fichas)	0=amount e.g. You have 5 tokens
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_BUY_TRINKET	¡Comprar un abalorio!	
 
@@ -904,7 +909,22 @@ ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	eye	Optional. Overrides the I key to be read 
 ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Pulsa {0} para cambiar entre ver tu actual mazo y elegir una nueva carta para añadir 
 ACCESSIBILITY_ARENA_WINS_LOSSES	Victorias: {0}, Derrotas: {1}	0 son victorias, 1 son derrotas
 ACCESSIBILITY_MODES_ARENA	Arena	Para usar en el menú modos
+ACCESSIBILITY_ARENA_RATING	Rango: {0}	0 is arena rating pulled from datamodel
 ACCESSIBILITY_ARENA_TICKETS_COUNT	Tienes {0} entradas.	0 is number of tickets.
+ACCESSIBILITY_ARENA_BEGIN_NEW_NORMAL_RUN	Comienza una nueva partida de arena normal.	Button to start a new standard arena run.
+ACCESSIBILITY_ARENA_BEGIN_NEW_UNDERGROUND_RUN	Comienza una nueva partida de arena clandestina.	Button to start a new underground arena run.
+ACCESSIBILITY_ARENA_RETIRE_BUTTON	Retirarse.	Retire button.
+ACCESSIBILITY_ARENA_HELP_DRAFTING_HERO	Una vez que hayas seleccionado un héroe pulsa {0} en el mismo para confirmar tu opción. Si quieres cambiar de opinión antes de confirmar selecciona cualquier otro héroe para cancelar la acción, o pulsa {1}.	Help for hero drafting.
+ACCESSIBILITY_ARENA_HERO_SELECTED_PROMPT	Si quieres continuar con este héroe, pulsa {0}. Si quieres elegir otro, pulsa {1}.	0 is confirm 1 is back.
+ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME	Bienvenido a la arena!	No run title for arena.
+ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME_BACK	Bienvenido de nuevo a la arena!	Run in progress title for arena.
+ACCESSIBILITY_ARENA_MENU_TITLE_RUN_COMPLETE	Partida terminada!	Run is over menu.
+ACCESSIBILITY_ARENA_CLAIM_REWARDS	Recoge {0} recompensas!	Claim arena run rewards, 0 is number of packages.
+ACCESSIBILITY_ARENA_CHANGE_TO_NORMAL_MODE	Cambia al modo normal de arena.	Switch to normal mode button.
+ACCESSIBILITY_ARENA_CHANGE_TO_UNDERGROUND_MODE	Cambia al modo de arena clandestina.	Switch to underground mode button.
+ACCESSIBILITY_ARENA_DRAFT_PACKAGE_HELP	Utiliza las flechas izquierda y derecha para navegar por el menu. Utiliza las flechas arriba y abajo para ver las opciones. Esto es un paquete de cartas que escogerás al completo de forma automática si lo seleccionas. Pulsa {0} para seleccionar este paquete, o pulsa {1} para volver atrás y elegir otro.	Package selection help in arena, 0 is confirm and 1 is back.
+ACCESSIBILITY_ARENA_EMPTY_DECK	Todavía no has elegido ninguna carta.	Ningún mazo para ver
+
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	Selecciona la Categoría:
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Completados recientemente:
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} de {2} puntos de logro totales ({3}), {4} de {5} logros completados	should be self explanatory, {0} is the category or subcategory name.

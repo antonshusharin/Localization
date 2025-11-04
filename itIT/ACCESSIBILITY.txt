@@ -30,6 +30,7 @@ ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED	Velocità dell'attacco automatico: 
 ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_SLOW	Lento	
 ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_MEDIUM	Medio	
 ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FAST	Veloce	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FASTEST	La più veloce	
 
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menù Principale	
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Premi {0} in qualsiasi momento per aprire il menù di gioco. Provalo ora!	0=Esc key
@@ -99,6 +100,7 @@ ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - edizione pregiata	0=card
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Turno dell'avversario	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Turno terminato	
 ACCESSIBILITY_GAMEPLAY_CHOICES_HIDDEN	Scelte nascoste	
+ACCESSIBILITY_GAMEPLAY_QUERY_REWIND	Riavvolgere?	
 ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} si attiva	0=full card name in zone e.g. {Your second Murloc Raider} triggered
 ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	L'effetto del tuo {0} si è attivato	0=card name e.g. Your {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	L'effetto del {0} dell'avversario si è attivato	0=card name e.g. Your opponent's {Psyfiend} triggered
@@ -382,6 +384,7 @@ ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Premi {0} per scambiare questa carta	0=t 
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Premi {0} per evocare questo servitore	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Usa i tasti freccia per navigare tra le tue opzioni. Premi {0} per sceglierne una. Premi {1} per ispezionare il tabellone di gioco		0=Enter key 1=tab key
 ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	Usa i tasti zona per ispezionare lo stato del tabellone di gioco. Premi {0} per tornare alle scelte	0=tab key
+ACCESSIBILITY_GAMEPLAY_REWIND_MODE_HELP	Usa i tasti zona per controllare lo stato del tabellone. Premi {0} per riavvolgere o {1} per mantenere lo stato attuale.	0=U key 1=J key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Usa {0} o i tasti zona per spostarti tra i bersagli disponibili. Premi {1} per scegliere un bersaglio o {2} per annullare	0=Tab key 1=Enter key 2=Backspace key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Premi {0} per attaccare con questo servitore	0=Enter key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Premi {0} per attaccare con il tuo eroe	0=Enter key
@@ -899,7 +902,22 @@ ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	i	Optional. Overrides the I key to be read as
 ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Premi {0} per passare dalla visualizzazione del mazzo attuale alla scelta di una nuova carta da aggiungere.
 ACCESSIBILITY_ARENA_WINS_LOSSES	Vittorie: {0}, Sconfitte: {1}	0 is wins, 1 is losses
 ACCESSIBILITY_MODES_ARENA	Arena	For use in the modes menu
+ACCESSIBILITY_ARENA_RATING	Valutazione: {0}	0 is arena rating pulled from datamodel
 ACCESSIBILITY_ARENA_TICKETS_COUNT	Hai {0} |4(biglietto,biglietti).	0 is number of tickets.
+ACCESSIBILITY_ARENA_BEGIN_NEW_NORMAL_RUN	Inizia una nuova corsa nell'arena normale.	Button to start a new standard arena run.
+ACCESSIBILITY_ARENA_BEGIN_NEW_UNDERGROUND_RUN	Inizia una nuova corsa nell'arena sotterranea.	Button to start a new underground arena run.
+ACCESSIBILITY_ARENA_RETIRE_BUTTON	Ritirati.	Retire button.
+ACCESSIBILITY_ARENA_HELP_DRAFTING_HERO	Dopo aver selezionato un eroe, premi {0} sullo stesso eroe per confermare la scelta. Se desideri cambiare idea prima di confermare, seleziona un altro eroe per annullare l'azione o premi {1}.	Help for hero drafting.
+ACCESSIBILITY_ARENA_HERO_SELECTED_PROMPT	Se desideri continuare con questo eroe, premi {0}. Se desideri sceglierne un altro, premi {1}.	0 is confirm 1 is back.
+ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME	Benvenuto nell'arena!	No run title for arena.
+ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME_BACK	Bentornato nell'arena!	Run in progress title for arena.
+ACCESSIBILITY_ARENA_MENU_TITLE_RUN_COMPLETE	Corsa completata!	Run is over menu.
+ACCESSIBILITY_ARENA_CLAIM_REWARDS	Riscatta {0} premi!	Claim arena run rewards, 0 is number of packages.
+ACCESSIBILITY_ARENA_CHANGE_TO_NORMAL_MODE	Passa alla modalità arena normale.	Switch to normal mode button.
+ACCESSIBILITY_ARENA_CHANGE_TO_UNDERGROUND_MODE	Passa alla modalità arena sotterranea.	Switch to underground mode button.
+ACCESSIBILITY_ARENA_DRAFT_PACKAGE_HELP	Usa i tasti freccia sinistra e destra per navigare nel menu. Usa i tasti freccia su e giù per leggere le opzioni. Questo è un pacchetto di carte che inserirai automaticamente per intero se selezioni questo pacchetto. Premi {0} per selezionare questo pacchetto oppure premi {1} per tornare indietro e sceglierne un altro.	Package selection help in arena, 0 is confirm and 1 is back.
+ACCESSIBILITY_ARENA_EMPTY_DECK	Non hai ancora inserito nessuna carta.	No deck to view.
+
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	Seleziona categoria:
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Completate di recente:
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} di {2} punti impresa totali ({3}), {4} di {5} imprese completate	should be self explanatory, {0} is the category or subcategory name.

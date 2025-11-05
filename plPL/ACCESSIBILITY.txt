@@ -967,5 +967,19 @@ ACCESSIBILITY_ARENA_CHANGE_TO_NORMAL_MODE	Przełącz na normalny tryb areny.	Swi
 ACCESSIBILITY_ARENA_CHANGE_TO_UNDERGROUND_MODE	Przełącz na tryb areny podziemnej.	Switch to underground mode button.
 ACCESSIBILITY_ARENA_DRAFT_PACKAGE_HELP	Naciśnij {0}, aby wybrać ten zestaw, albo {1}, aby wrócić i wybrać inny.	Package selection help in arena.
 ACCESSIBILITY_GAMEPLAY_QUERY_REWIND	Cofnięcie?	
+ACCESSIBILITY_ARENA_EMPTY_DECK	Nie wybrałeś jeszcze żadnych kart.	No deck to view.
+ACCESSIBILITY_ARENA_VIEW_DECK_BUTTON	Pokaż talię	View deck button in arena menu.
+ACCESSIBILITY_ARENA_REDRAFT_ALREADY_DRAGGING_FROM_SLOT	Przenosisz właśnie kartę z miejsca do swojej talii. Naciśnij {0} na karcie, aby potwierdzić zamianę, lub naciśnij {1}, aby przerwać.	0 is confirm 1 is back
+ACCESSIBILITY_ARENA_REDRAFT_ALREADY_DRAGGING_FROM_DECK	Przenosisz właśnie kartę ze swojej talii do miejsca. Naciśnij {0} na karcie, aby potwierdzić zamianę, lub naciśnij {1}, aby przerwać.	0 is confirm 1 is back
+ACCESSIBILITY_ARENA_REDRAFT_EMPTY_SLOT	Miejsce {0} jest puste.	0 is slot number
+ACCESSIBILITY_ARENA_REDRAFT_SLOT_EMPTY_ERROR	To miejsce jest puste. Select a filled one to swap its contents with the card selected in your deck.	Trying to drag card to empty slot error
+ACCESSIBILITY_ARENA_REDRAFT_PROMPT_SWAP_SLOT	Naciśnij {0} na karcie w talii, z którą chcesz zamienić wybraną kartę.	0 is confirm
+ACCESSIBILITY_ARENA_REDRAFT_PROMPT_SWAP_DECK	„Naciśnij {0} na karcie, aby zamienić ją z tą z ponownego wyboru.	0 is confirm
+ACCESSIBILITY_ARENA_REDRAFT_DRAG_CANCELLED	Anuluj zamianę karty.
+ACCESSIBILITY_ARENA_EXIT_EDIT_DECK_CONFIRM	Masz zamiar zakończyć ponowny wybór kart. Naciśnij {0} lub {1}, aby potwierdzić, albo dowolny inny klawisz, by anulować.	0 is confirm 1 is e.
+ACCESSIBILITY_ARENA_REDRAFT_DECK_HELP	„Naciśnij {0} na karcie, aby przenieść ją do wolnego miejsca ponownego wyboru (jeśli takie masz). Naciśnij {1} na karcie, aby ją wybrać — wtedy zostaniesz przeniesiony do miejsc ponownego wyboru. Naciśnij {2} na zajętym miejscu, aby zamienić pozycje tych dwóch kart. Naciśnij {3}, aby anulować trwającą zamianę.	0 is confirm, 1 is space, 2 is confirm, 3 is back
+ACCESSIBILITY_ARENA_REDRAFT_SLOT_HELP	„Naciśnij {0} na zajętym miejscu, aby przenieść kartę do tworzonej talii. Naciśnij {1} na zajętym miejscu, aby je wybrać — wtedy zostaniesz przeniesiony do swojej tworzonej talii. Naciśnij {2} na karcie w talii, aby zamienić pozycje tych dwóch kart. Naciśnij {3}, aby anulować trwającą zamianę.	0 is confirm, 1 is space, 2 is confirm, 3 is back
+ACCESSIBILITY_ARENA_REDRAFT_GENERAL_HELP	Naciśnij {0}, aby zobaczyć, ile kart masz w tworzonej talii. Naciśnij {1}, aby zakończyć wybieranie kart.	General help for all redraft views.
+ACCESSIBILITY_ARENA_REDRAFT_DECK_COUNT	Twoja tworzona talia zawiera {0} kart.	0 is number of cards in deck
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS

@@ -64,8 +64,8 @@ ACCESSIBILITY_GLOBAL_STREAMER_MODE_ON	流媒体模式开启	Read when Ctrl+Shift
 ACCESSIBILITY_GLOBAL_STREAMER_MODE_OFF	流媒体模式关闭	Read when Ctrl+Shift+S is pressed and streamer mode is turned off
 
 ACCESSIBILITY_FORMATTING_PERIOD	。	
-ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	。！？；	
-ACCESSIBILITY_FORMATTING_LIST_SEPARATOR	、	e.g. the ", " in A, B, C, D and E
+ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	。!?;	
+ACCESSIBILITY_FORMATTING_LIST_SEPARATOR	,	e.g. the ", " in A, B, C, D and E
 ACCESSIBILITY_FORMATTING_LIST_FINAL_SEPARATOR	和	e.g. the " and " in A, B, C, D and E
 
 ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_1	第一	Languages with grammatical genders can work around using digits and configure text that uses ordinal numbers such as "minion number 1" instead of "first minion"
@@ -100,6 +100,7 @@ ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - 异画版	0=card name
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	对手的回合	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	回合结束	
 ACCESSIBILITY_GAMEPLAY_CHOICES_HIDDEN	隐藏选择
+ACCESSIBILITY_GAMEPLAY_QUERY_REWIND	回溯？	
 ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0}被触发	0=full card name in zone e.g. {Your second Murloc Raider} triggered
 ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	你的{0}被触发	0=card name e.g. Your {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	你对手的{0}被触发	0=card name e.g. Your opponent's {Psyfiend} triggered
@@ -187,7 +188,7 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_CURRENT_AND_TOTAL	你的对手剩余{0
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	你的对手有{0}法力水晶	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |4(残骸,残骸)	0=current amount of corpses
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	没有残骸	
-ACCESSIBILITY_GAMEPLAY_READ_STARSHIP_LAUNCH_COST	发射星箭需要{0} 法力水晶	0=launch cost e.g. {5} mana to launch 
+ACCESSIBILITY_GAMEPLAY_READ_STARSHIP_LAUNCH_COST	{0} 法力水晶发射星舰	0=launch cost e.g. {5} mana to launch 
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	对手的手中 {0}张卡	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	牌库{0}张卡	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	对手的牌库{0}张卡	0=number of cards
@@ -381,8 +382,10 @@ ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	按 {0} 获取这张卡的效果�
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	按 {0} 发动这张卡牌	0=回车 key
 ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	按 {0} 交易这张卡	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	按 {0} 召唤这个随从	0=回车 key
+ACCESSIBILITY_GAMEPLAY_POSITION_LOCATION_HELP	按{0}放置此地标	0=回车键
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	使用光标键浏览你的选项。 按 {0} 选择一个选项。按 {1} 查看棋盘	0=Enter key 1=tab key
 ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	使用区域键查看棋盘状态。按 {0} 返回到选择	0=tab key
+ACCESSIBILITY_GAMEPLAY_REWIND_MODE_HELP	使用区域键查看游戏面板状态。按{0}进行回溯，或按{1}保持当前状态。	0=U键 1=J键
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	使用 {0} 或者使用相关区域的快捷键浏览你的目标。 按 {1} 选择一个目标 或按 {2} 取消	0=Tab key 1=回车 key 2=退格 key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	按 {0} 攻击这个随从	0=回车 key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	按 {0} 攻击你的英雄	0=回车 key
@@ -906,7 +909,36 @@ ACCESSIBILITY_INPUT_KEY_OVERRIDE_Escape	ESC	Optional. Overrides the Escape key t
 ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	按 {0} 在查看当前卡组和添加卡牌之间切换。
 ACCESSIBILITY_ARENA_WINS_LOSSES	获胜场数:{0},失败场数:{1}	0 is wins, 1 is losses
 ACCESSIBILITY_MODES_ARENA	竞技模式	For use in the modes menu
+ACCESSIBILITY_ARENA_RATING	评级：{0}	0为从数据模型中提取的竞技场评级
 ACCESSIBILITY_ARENA_TICKETS_COUNT	你有{0}张门票。	0 is number of tickets.
+ACCESSIBILITY_ARENA_BEGIN_NEW_NORMAL_RUN	开始新的普通竞技场征程。	开始标准竞技场征程的按钮。
+ACCESSIBILITY_ARENA_BEGIN_NEW_UNDERGROUND_RUN	开始新的地下竞技场征程。	开始地下竞技场征程的按钮。
+ACCESSIBILITY_ARENA_RETIRE_BUTTON	退出。	
+ACCESSIBILITY_ARENA_HELP_DRAFTING_HERO	选择英雄后，按{0}确认选择。若在确认前改变主意，可选择其他英雄取消操作，或按{1}。	英雄选择阶段帮助说明。
+ACCESSIBILITY_ARENA_HERO_SELECTED_PROMPT	确认选择此英雄请按{0}，重新选择请按{1}。	0为确认键 1为返回键。
+ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME	欢迎来到竞技场！	竞技场无进行中征程的标题。
+ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME_BACK	欢迎回到竞技场！	竞技场有进行中征程的标题。
+ACCESSIBILITY_ARENA_MENU_TITLE_RUN_COMPLETE	征程结束！	竞技场征程结束菜单。
+ACCESSIBILITY_ARENA_CLAIM_REWARDS	领取{0}份奖励！	领取竞技场奖励，0为奖励包数量。
+ACCESSIBILITY_ARENA_CHANGE_TO_NORMAL_MODE	切换至普通竞技场模式。	切换至普通模式按钮。
+ACCESSIBILITY_ARENA_CHANGE_TO_UNDERGROUND_MODE	切换至地下竞技场模式。	切换至地下模式按钮。
+ACCESSIBILITY_ARENA_DRAFT_PACKAGE_HELP	使用左右方向键导航菜单，上下方向键查看选项。此卡牌包被选中后将自动收录全部卡牌。按{0}选择此卡牌包，按{1}返回重新选择。	竞技场卡牌包选择帮助说明，0为确认键，1为返回键。
+ACCESSIBILITY_ARENA_EMPTY_DECK	尚未选择任何卡牌。	无卡组可查看。
+
+ACCESSIBILITY_ARENA_VIEW_DECK_BUTTON	查看套牌。	竞技场菜单中的查看套牌按钮。
+ACCESSIBILITY_ARENA_REDRAFT_ALREADY_DRAGGING_FROM_SLOT	你正在将卡牌从卡槽移至套牌。按下{0}键确认交换，或按下{1}键取消移动。	0为确认键，1为返回键
+ACCESSIBILITY_ARENA_REDRAFT_ALREADY_DRAGGING_FROM_DECK	你正在将卡牌从套牌移至卡槽。按下{0}键确认交换，或按下{1}键取消移动。	0为确认键，1为返回键
+ACCESSIBILITY_ARENA_REDRAFT_EMPTY_SLOT	{0}号卡槽为空。	0为卡槽编号
+ACCESSIBILITY_ARENA_REDRAFT_SLOT_EMPTY_ERROR	该卡槽为空。请选择已填充的卡槽以将其内容与套牌中选定的卡牌交换。	尝试将卡牌拖至空卡槽时的错误提示
+ACCESSIBILITY_ARENA_REDRAFT_PROMPT_SWAP_SLOT	按下{0}键选择要与你套牌中选定卡牌交换的卡牌。	0为确认键
+ACCESSIBILITY_ARENA_REDRAFT_PROMPT_SWAP_DECK	按下{0}键选择要与你重选卡槽中选定卡牌交换的卡牌。	0为确认键
+ACCESSIBILITY_ARENA_REDRAFT_DRAG_CANCELLED	你已取消交换。	取消卡牌重选交换
+ACCESSIBILITY_ARENA_EXIT_EDIT_DECK_CONFIRM	即将完成重选。若确认继续，请按{0}或{1}，按其他任意键取消。	0为确认键，1为E键
+ACCESSIBILITY_ARENA_REDRAFT_DECK_HELP	对卡牌按下{0}可将其移至空闲重选卡槽（若有）。对卡牌按下{1}可选中该卡，随后将跳转至重选卡槽界面。对已填充卡槽按下{2}可交换两张卡牌的位置。按下{3}可取消进行中的交换操作。	0为确认键，1为空格键，2为确认键，3为返回键
+ACCESSIBILITY_ARENA_REDRAFT_SLOT_HELP	对已填充卡槽按下{0}可将其移至进行中的套牌。对已填充卡槽按下{1}可选中该卡，随后将跳转至进行中套牌界面。对套牌中的卡牌按下{2}可交换两张卡牌的位置。按下{3}可取消进行中的交换操作。	0为确认键，1为空格键，2为确认键，3为返回键
+ACCESSIBILITY_ARENA_REDRAFT_GENERAL_HELP	按下{0}查看进行中套牌的卡牌数量。按下{1}将提示结束选牌。	适用于所有重选界面的通用提示。
+ACCESSIBILITY_ARENA_REDRAFT_DECK_COUNT	你进行中的套牌包含{0}张卡牌。	0为套牌中的卡牌数量
+
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	选择分类	
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	最近完成	
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}:成就点数{1} {2}，成就总完成度{3}，已完成{4} {5}个成就	should be self explanatory, {0} is the category or subcategory name.

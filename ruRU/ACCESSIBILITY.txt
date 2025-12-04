@@ -403,12 +403,14 @@ ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} отклонил п
 ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} покинул Поля Сражений	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Уровень {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} золота	0=card cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_CHRONUM_COST	{0} хронум	0=card cost
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Уровень таверны {0} и {1} золота	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	Сражение с {1}, {0} уровень, {2} здоровья и {3} |4(существо,существа,существ)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	Сражение с {1}, {0} уровень, {2} здоровья, {4} брони и {3}|4(существо,существа,существ)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_AGAINST_DEAD_PLAYER	Сражение с {0}	0=Kel'Thuzad i.e. dead player with 0 health e.g. You face {Kel'Thuzad}
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_CURRENT_AND_TOTAL	{0} из {1} золота	0=current gold 1=total gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD	У вас {0} золота	0=current and total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_CHRONUM	У вас {0} хронум	0=current and total chronum
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_REMAINING_GOLD	Осталось {0} золота	0=amount e.g. {3} gold remaining
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_MINIONS_FOR_SALE	Покупка существ	Read when you press g in the recruit phase
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_PLAYER_TRINKETS	Аксессуары	Read when you press q
@@ -461,6 +463,9 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Нажмите {0}, �
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Нажмите {0}, чтобы узнать свою статистику	0=m key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Нажмите {0}, чтобы узнать типы существ в этой игре	0=o key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_HERO_REROLL_HELP	Нажмите {0}, чтобы заменить текущего героя	0=R key
+
+ACCESSIBILITY_BATTLEGROUNDS_TIMEWARPED_TAVERN_HELP	Используйте {0} и клавиши со стрелками, чтобы просмотреть доступных для покупки существ. Нажмите {1}, чтобы купить существо. Существа в этой таверне продаются за хронум, а не золото. Нажмите {2}, чтобы узнать доступный вам хронум. Потратьте весь хронум, чтобы продолжить.	0=G key 1=Enter key 2=A key
+
 
 ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_QUERY_PASS_CARD	Передать {0}?	0=card name e.g. Pass {Tarecgosa}?
 ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_TEAMMATE_CHOSE_HERO	Союзник выбрал {0}	0=hero name e.g. Your teammate chose {Al'Akir}

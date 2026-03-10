@@ -92,7 +92,8 @@ ACCESSIBILITY_READ_CARD_RUNE_UNHOLY	Unholy	The unholy death knight rune
 ACCESSIBILITY_READ_HERO_CARD_ATK	{0} attack	0=attack
 ACCESSIBILITY_READ_HERO_CARD_HEALTH	{0} health	0=health
 ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} armor	0=armor
-ACCESSIBILITY_READ_CARD_N_COPIES	{0} copies	0=number of copies
+ACCESSIBILITY_READ_CARD_N_COPIES	{0} |4(copy,copies)	0=number of copies
+ACCESSIBILITY_READ_CARD_N_TRIAL_COPIES	{0} |4(trial copy,trial copies)	0=number of copies
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - golden edition	0=card name e.g. {fireball} - golden edition
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - diamond edition	0=card name
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - signature edition	0=card name
@@ -687,6 +688,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_BACK_TO_DECK_OPTION	Back 
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Your deck is empty	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_SIDEBOARD	This sideboard is empty	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	{0} of {1} cards in deck	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_COST_OF_MINIONS_IN_DECK	Cost of minions: {0} of {1} mana	Spoken when Vyranoth is in the current deck. 0=current cost of minions 1=target cost for Vyranoth's effect to trigger e.g. Cost of minions: {10} of {100} mana
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_SIDEBOARD	{0} of {1} cards in sideboard	0=number of cards in sideboard 1=max number of cards in sideboard e.g. {10} of {30} cards in sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_INVALID_CARD	Invalid	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	Sideboard	Used in place of the deck name when editing a sideboard

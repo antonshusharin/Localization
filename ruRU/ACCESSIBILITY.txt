@@ -90,7 +90,8 @@ ACCESSIBILITY_READ_CARD_RUNE_UNHOLY	Нечестивость	The unholy death kn
 ACCESSIBILITY_READ_HERO_CARD_ATK	{0} атаки	0=attack
 ACCESSIBILITY_READ_HERO_CARD_HEALTH	{0} здоровья	0=health
 ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} брони	0=armor
-ACCESSIBILITY_READ_CARD_N_COPIES	{0} копий	0=number of copies
+ACCESSIBILITY_READ_CARD_N_COPIES	{0} |4(копия,копии,копий)	0=number of copies
+ACCESSIBILITY_READ_CARD_N_TRIAL_COPIES	{0} |4(временная копия,временные копии,временных копий)	0=number of copies
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - золотая	0=card name e.g. {fireball} - golden edition
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - алмазная	0=card name
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - особая	0=card name
@@ -664,6 +665,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_SIDEBOARD_OPTION	Пр
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_BACK_TO_DECK_OPTION	Вернуться к колоде	Used when editing a sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Ваша колода пуста	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Карт в колоде: {0} из {1}	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_COST_OF_MINIONS_IN_DECK	Стоимость существ: {0} из {1} маны	Spoken when Vyranoth is in the current deck. 0=current cost of minions 1=target cost for Vyranoth's effect to trigger e.g. Cost of minions: {10} of {100} mana
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	сайдборд	Used in place of the deck name when editing a sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_FORMAT_CHANGED	Формат изменен	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Используйте клавиши со стрелками, чтобы читать карты. Используйте {0} для перехода между классами	0=Tab key

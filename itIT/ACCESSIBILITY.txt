@@ -27,8 +27,8 @@ ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} casella di controllo	0=checkbox na
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Attivata	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	Disattivata	
 ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED	Velocità dell'attacco automatico: {0}	Options menu
-ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_SLOW	Lento	
-ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_MEDIUM	Medio	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_SLOW	Lenta	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_MEDIUM	Media	
 ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FAST	Veloce	
 ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FASTEST	La più veloce	
 
@@ -83,7 +83,7 @@ ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + 
 ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	Ctrl + {0}	0=key e.g. Ctrl + F
 
 ACCESSIBILITY_READ_CARD_COST	{0} mana	0=card cost
-ACCESSIBILITY_READ_CARD_DURABILITY	{0} Integrità	0=durability e.g. 1 durability, for a location
+ACCESSIBILITY_READ_CARD_DURABILITY	{0} integrità	0=durability e.g. 1 durability, for a location
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
 ACCESSIBILITY_READ_CARD_ATK_DURABILITY	{0} {1}	0=attack 1=durability e.g. 1 3
 ACCESSIBILITY_READ_CARD_RUNE_BLOOD	Sangue	The blood death knight rune
@@ -92,7 +92,8 @@ ACCESSIBILITY_READ_CARD_RUNE_UNHOLY	Empietà	The unholy death knight rune
 ACCESSIBILITY_READ_HERO_CARD_ATK	{0} attacco	0=attack
 ACCESSIBILITY_READ_HERO_CARD_HEALTH	{0} salute	0=health
 ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} armatura	0=armor
-ACCESSIBILITY_READ_CARD_N_COPIES	{0} copie	0=number of copies
+ACCESSIBILITY_READ_CARD_N_COPIES	{0} |4(copia,copie)	0=number of copies
+ACCESSIBILITY_READ_CARD_N_TRIAL_COPIES	{0} |4(copia di prova,copie di prova)	0=number of copies
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - edizione dorata	0=card name e.g. {fireball} - golden edition
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - edizione diamante	0=card name
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - edizione pregiata	0=card name
@@ -101,7 +102,7 @@ ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Turno dell'avversario
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Turno terminato	
 ACCESSIBILITY_GAMEPLAY_CHOICES_HIDDEN	Scelte nascoste	
 ACCESSIBILITY_GAMEPLAY_QUERY_REWIND	Riavvolgere?	
-ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} si attiva	0=full card name in zone e.g. {Your second Murloc Raider} triggered
+ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} si è attivato	0=full card name in zone e.g. {Your second Murloc Raider} triggered
 ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	L'effetto del tuo {0} si è attivato	0=card name e.g. Your {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	L'effetto del {0} dell'avversario si è attivato	0=card name e.g. Your opponent's {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	L'effetto del {0} dell'avversario si è attivato; {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
@@ -132,7 +133,7 @@ ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_LOCATION_BIG_CARD	L'avversario ha giocato
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	Hai provato a pescare una carta da un mazzo vuoto	
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	L'avversario ha provato a pescare una carta da un mazzo vuoto	
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	Hai pescato 1 {0}, ma si è bruciato	0=card e.g. You drew 1 {Fireball} but it burned
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	L'avversario ha pescato 1 {0}. ma si è bruciato	0=card e.g. Your opponent drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	L'avversario ha pescato 1 {0}, ma si è bruciato	0=card e.g. Your opponent drew 1 {Fireball} but it burned
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} ha attaccato {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} ha provato ad attaccare {1}, ma ha invece attaccato {2}	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
 ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	Hai rivelato un {1} dal costo {0}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
@@ -147,7 +148,7 @@ ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	Inizi con {0} |4(carta,carte)	0=nu
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARDS	Hai pescato {0}	0=card names e.g. You drew {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	L'avversario ha pescato {0}	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	Hai scartato {0}	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	L'avversario ah scartato {0}	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	L'avversario ha scartato {0}	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	La moneta va a te	
 ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	In attesa dell'avversario	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	Vuoi evocare?	
@@ -170,7 +171,7 @@ ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_MINION	Quello non è un servitore
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_VALID_ATTACKER	Quel servitore non può attaccare l'eroe dell'avversario	
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	Scegli un bersaglio	
 ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	{0} |4(secondo rimanente,secondi rimanenti)	0=number of seconds - always plural e.g. {20} seconds remaining
-ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	Stai giocando contro {0}, il {1}	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
+ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	Stai giocando contro {0}, classe {1}	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
 
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HAND_EMPTY	La tua mano è vuota	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_MINIONS_EMPTY	Non hai servitori in gioco	
@@ -202,8 +203,8 @@ ACCESSIBILITY_GAMEPLAY_GAME_OVER_GENERIC	Partita terminata
 
 ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HERO	Il tuo eroe	Read when you press v
 ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HERO	Eroe avversario	Read when you press f
-ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HERO_POWER	Potere Eroe	Read when you press r
-ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HERO_POWER	Potere Eroe dell'avversario	Read when you press Shift+r
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HERO_POWER	Potere eroe	Read when you press r
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HERO_POWER	Potere eroe dell'avversario	Read when you press Shift+r
 ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_WEAPON	Arma	Read when you press w
 ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_WEAPON	Arma dell'avversario	Read when you press Shift+w
 ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HAND	Mano	Read when you press c
@@ -240,10 +241,10 @@ ACCESSIBILITY_GAMEPLAY_DIFF_AURA_FADED	Si è sbiadito	Paladin auras, objectives,
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_AURAS_FADED	Si sono sbiaditi	Paladin auras, objectives, etc
 ACCESSIBILITY_GAMEPLAY_DIFF_LOCATION_WAS_DESTROYED	è stato distrutto	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_LOCATIONS_WERE_DESTROYED	sono stati distrutti	
-ACCESSIBILITY_GAMEPLAY_DIFF_LOCATION_REOPENED	riaperto	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_LOCATIONS_REOPENED	riaperti	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	si è trasformato in 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	si sono trasformati in 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
+ACCESSIBILITY_GAMEPLAY_DIFF_LOCATION_REOPENED	è stato riaperto	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_LOCATIONS_REOPENED	sono stati riaperti	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	si è trasformato in {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	si sono trasformati in {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TOOK_N_DAMAGE	ha subito {0} |4(danno,danni)	0=damage taken
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TOOK_N_DAMAGE	hanno subito {0} |4(danno,danni)	0=damage taken
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_DURABILITY	{0} integrità	0=gained/lost durability amount
@@ -280,11 +281,11 @@ ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_POISONOUS	è ora velenoso
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_POISONOUS	sono ora velenosi	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_POISONOUS	non è più velenoso	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_POISONOUS	non sono più velenosi	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_STEALTHED	ha guadagnato furtività	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_STEALTHED	hanno guadagnato furtività	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_GAINED_STATS	ha guadagnato {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_GAINED_STATS	hanno guadagnato {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_LOST_STATS	Ha perso {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_STEALTHED	ha ottenuto furtività	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_STEALTHED	hanno ottenuto furtività	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_GAINED_STATS	ha ottenuto {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_GAINED_STATS	hanno ottenuto {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_LOST_STATS	ha perso {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_LOST_STATS	hanno perso {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
 
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_SPEECHES_FORMAT	{0} {1}	0=entities 1=effect e.g. {Your Hero and your Raid Leader} {took 3 damage}
@@ -313,14 +314,14 @@ ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_SAME_NAME_ENTITIES	Il {1} numero {0} 
 
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_EQUIPPED_WEAPON	il tuo Eroe ha equipaggiato 1 {0}	0=weapon name e.g. your Hero equipped 1 {Fiery War Axe}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_EQUIPPED_WEAPON	l'Eroe avversario ha equipaggiato 1 {0}	0=weapon name e.g. your opponent's Hero equipped 1 {Fiery War Axe}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_CHANGED	il tuo Eroe è diventato {0}	0=hero name e.g. your Hero became {Lord Jaraxxus}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_CHANGED	il tuo eroe è diventato {0}	0=hero name e.g. your Hero became {Lord Jaraxxus}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_CHANGED	l'Eroe avversario è diventato {0}	0=hero name e.g. your opponent's Hero became {Lord Jaraxxus}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_POWER_CHANGED	il tuo Potere Eroe è diventato {0}	0=hero power name e.g. your Hero Power became {Fireblast}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	il Potere Eroe dell'avversario è diventato {0}	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_POWER_CHANGED	il tuo Potere eroe è diventato {0}	0=hero power name e.g. your Hero Power became {Fireblast}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	il Potere eroe dell'avversario è diventato {0}	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_PLAYER_HAND	è tornato nella tua mano	e.g. Your Bloodfen Raptor {returned to your hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_PLAYER_HAND	sono tornati nella tua mano	e.g. Your 2 Bloodfen Raptor {returned to your hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_OPPONENT_HAND	è tornato nella mano dell'avversario	e.g. Your Bloodfen Raptor {returned to your opponent's hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_OPPONENT_HAND	sono ritornati nella mano dell'avversario	e.g. Your 2 Bloodfen Raptor {returned to your opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_OPPONENT_HAND	sono tornati nella mano dell'avversario	e.g. Your 2 Bloodfen Raptor {returned to your opponent's hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_FROM_ZONE_TO_ZONE	è andato da {0} a {1}	0=from zone name 1=to zone name e.g. Your Bloodfen raptor moved from {your hand} to {your opponent's deck}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_FROM_ZONE_TO_ZONE	sono andati da {0} a {1}	0=from zone name 1=to zone name e.g. Your 2 Bloodfen raptor moved from {your hand} to {your opponent's deck}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_TO_ZONE	è andato a {0}	0=zone name e.g. Your Bloodfen Raptor moved to {your opponent's deck}
@@ -343,17 +344,17 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} son
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_PLAYER	hai preso il controllo di {0}	0=card names
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_OPPONENT	L'avversario ha preso il controllo di {0}	0=card names
 
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_SPELL_DAMAGE	Hai guadagnato {0} |4(Danno Magico,Danni Magici)	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_SPELL_DAMAGE	Hai ottenuto {0} |4(Danno Magico,Danni Magici)	0=spell damage
 ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_LOST_SPELL_DAMAGE	Hai perso {0} |4(Danno Magico,Danni Magici)	0=spell damage
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_SPELL_DAMAGE	L'avversario ha guadagnato {0} |4(Danno Magico,Danni Magici)	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_SPELL_DAMAGE	L'avversario ha ottenuto {0} |4(Danno Magico,Danni Magici)	0=spell damage
 ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_LOST_SPELL_DAMAGE	L'avversario ha perso {0} |4(Danno Magico,Danni Magici)	0=spell damage
 
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA	Hai guadagnato {0} mana	0=amount
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA	L'avversario ha guadagnato {0} mana	0=amount
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	Hai guadagnato {0} mana e {1} |4(cristallo di mana vuoto,cristalli di mana vuoti)	0=mana gained 1=empty mana crystals gained
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	L'avversario ha guadagnato {0} mana e {1} |4(cristallo di mana vuoto,cristalli di mana vuoti)	0=mana gained 1=empty mana crystals gained
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_EMPTY_MANA_CRYSTALS	Hai guadagnato {0} |4(cristallo di mana vuoto,cristalli di mana vuoti)	0=amount
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_EMPTY_MANA_CRYSTALS	L'avversario ha guadagnato {0} |4(cristallo di mana vuoto,cristalli di mana vuoti)	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA	Hai ottenuto {0} mana	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA	L'avversario ha ottenuto {0} mana	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	Hai ottenuto {0} mana e {1} |4(cristallo di mana vuoto,cristalli di mana vuoti)	0=mana gained 1=empty mana crystals gained
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	L'avversario ha ottenuto {0} mana e {1} |4(cristallo di mana vuoto,cristalli di mana vuoti)	0=mana gained 1=empty mana crystals gained
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_EMPTY_MANA_CRYSTALS	Hai ottenuto {0} |4(cristallo di mana vuoto,cristalli di mana vuoti)	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_EMPTY_MANA_CRYSTALS	L'avversario ha ottenuto {0} |4(cristallo di mana vuoto,cristalli di mana vuoti)	0=amount
 
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HERO_HELP	Premi {0} per leggere le statistiche del tuo eroe	0=v key
 ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_HERO_HELP	Premi {0} per controllare le statistiche dell'eroe avversario	0=f key
@@ -365,7 +366,7 @@ ACCESSIBILITY_GAMEPLAY_CONFIRM_END_TURN_HELP	Premi {0} o {1} per terminare il tu
 ACCESSIBILITY_GAMEPLAY_SEE_VALID_OPTIONS	Usa {0} per scorrere le tue opzioni valide	0=tab key
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HAND_HELP	Premi {0} per leggere la tua mano	0=c key
 ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_HAND_HELP	Premi {0} per sapere il numero di carte nella mano dell'avversario	0=Shift+c keys
-ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_MINIONS_HELP	Premi {0} per spostarti tra i servitori che hai ebocato	0=b key
+ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_MINIONS_HELP	Premi {0} per spostarti tra i servitori che hai evocato	0=b key
 ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_MINIONS_HELP	Premi {0} per spostarti tra i servitori dell'avversario	0=g key
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_SECRETS_HELP	Premi {0} per leggere i tuoi segreti	0=s key
 ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_SECRETS_HELP	Premi {0} per sapere il numero di segreti dell'avversario	0=Shift+s keys
@@ -382,6 +383,7 @@ ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Premi {0} per avere una descrizion
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Premi {0} per giocare questa carta	0=Enter key
 ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Premi {0} per scambiare questa carta	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Premi {0} per evocare questo servitore	0=Enter key
+ACCESSIBILITY_GAMEPLAY_POSITION_LOCATION_HELP	Premi {0} per posizionare questo luogo	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Usa i tasti freccia per navigare tra le tue opzioni. Premi {0} per sceglierne una. Premi {1} per ispezionare il tabellone di gioco		0=Enter key 1=tab key
 ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	Usa i tasti zona per ispezionare lo stato del tabellone di gioco. Premi {0} per tornare alle scelte	0=tab key
 ACCESSIBILITY_GAMEPLAY_REWIND_MODE_HELP	Usa i tasti zona per controllare lo stato del tabellone. Premi {0} per riavvolgere o {1} per mantenere lo stato attuale.	0=U key 1=J key
@@ -399,7 +401,7 @@ ACCESSIBILITY_GAMEPLAY_READ_HISTORY_HELP	Usa le frecce su e giù per leggere il 
 ACCESSIBILITY_GAMEPLAY_END_TURN_HELP	Premi {0} per terminare il tuo turno	0=e key
 
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	Non è stato giocato ancora nulla	
-ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2} ; {0} di {1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
+ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2}, {0} di {1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	lettura del registro chiusa	
 
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Il tuo campo di battaglia inizia con {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
@@ -410,6 +412,7 @@ ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} Ha rifiutato l'invi
 ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} Ha abbandonato la battaglia.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	livello {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} |4(moneta,monete)	0=card cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_CHRONUM_COST	{0} crono	0=card cost
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DARKMOON_TICKET	Biglietto	in the inn view
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	livello {0} e {1} monete	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	Il nemico è di livello {0} {1} con {2} salute e {3} |4(servitore,servitori)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
@@ -417,6 +420,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	I
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_AGAINST_DEAD_PLAYER	Il nemico è {0}	0=Kel'Thuzad i.e. dead player with 0 health e.g. You face {Kel'Thuzad}
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_CURRENT_AND_TOTAL	Possiedi {0} su {1} monete	0=current gold 1=total gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD	Possiedi {0} |4(moneta,monete)	0=current and total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_CHRONUM	Hai {0} crono	0=current and total chronum
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_REMAINING_GOLD	{0} |4(moneta rimanente,monete rimanenti)	0=amount e.g. {3} gold remaining
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_MINIONS_FOR_SALE	Servitori in vendita	Read when you press g in the recruit phase
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_PLAYER_TRINKETS	Monili	Read when you press q
@@ -435,7 +439,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_BUY_TRINKET	Compra un monile!
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	Anomalia: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}
 
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	Spostare all'ultima posizione?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	Spostare in ultima posizione?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	Spostare in prima posizione?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_BETWEEN	Spostare tra {0} e {1}?	Move between {Murloc Raider} and {Bloodfen Raptor}?
 
@@ -443,7 +447,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_DEALT_DAMAGE	Infl
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TOOK_DAMAGE	Subiti {0} danni da {1}	0=damage taken 1=opponent Hero e.g. Took {10} damage from {Millhouse Manastorm}
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TIED	Pareggio con {0}	0=opponent Hero e.g. Tied with {Millhouse Manastorm}
 
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_TAVERN	1 {0} è appparso nella locanda	0=card name e.g. 1 {Murloc Raider} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_TAVERN	1 {0} è apparso nella locanda	0=card name e.g. 1 {Murloc Raider} appeared in Bob's Tavern
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_TAVERN	{0} Sono apparsi nella locanda	0=card name e.g. 1 {Murloc Raider} and 2 {Tarecgosa} appeared in Bob's Tavern
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_HAND	Hai ottenuto 1 {0}	0=card name e.g. You got 1 {Murloc Raider}
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_HAND	Hai ottenuto {0}	0=card name e.g. You got 1 {Murloc Raider} and 1 {Tarecgosa}
@@ -470,6 +474,8 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Premi {0} per conoscere 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Premi {0} per leggere le tipologie di servitori e le anomalie in questa partita	0=o key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_HERO_REROLL_HELP	Premi {0} per rilanciare l'eroe attuale	0=R key
 
+ACCESSIBILITY_BATTLEGROUNDS_TIMEWARPED_TAVERN_HELP	Usa {0} e i tasti freccia per sfogliare i servitori in vendita. Premi {1} per acquistare un servitore. I servitori in questa locanda costano crono anziché monete. Premi {2} per vedere il tuo crono rimanente. Devi spendere tutto il tuo crono per continuare.	0=G key 1=Enter key 2=A key
+
 ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_QUERY_PASS_CARD	Passare {0}?	0=card name e.g. Pass {Tarecgosa}?
 ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_SWITCH_TO_TEAMMATES_BOARD	Tabellone del compagno	Spoken when you switch to viewing your teammate's board in Duos
 ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_SWITCH_TO_PLAYERS_BOARD	Il tuo tabellone	Spoken when you switch to viewing your board in Duos
@@ -487,7 +493,7 @@ ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_QUESTION	Punto interrogativo
 
 ACCESSIBILITY_UI_POPUP	Popup	
 ACCESSIBILITY_UI_REWARDS_TITLE	Ricompense	
-ACCESSIBILITY_UI_UNKNOWN_POPUP	Questo popup non è ancora stato reso accessibile. Chiedi aiuto ad una persona vedente	
+ACCESSIBILITY_UI_UNKNOWN_POPUP	Questo popup non è ancora stato reso accessibile. Chiedi aiuto a una persona vedente	
 ACCESSIBILITY_UI_UNKNOWN_DIALOG	Questa finestra di dialogo non è ancora stata resa accessibile. Chiedi aiuto a una persona vedente	
 
 ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Popup avviso	
@@ -508,7 +514,7 @@ ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	La tua prestazione nelle partite Class
 ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	Finestra di dialogo di riconnessione	
 
 ACCESSIBILITY_UI_SEASON_END_DIALOG_RANK_EARNED	La {0} è terminata. Hai raggiunto il grado {1}	0=season name 1=rank name e.g. {July 2021 season} has ended. You achieved the rank of {Diamond 1}
-ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED	Hai guadagnato un forziere di ricompense	
+ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED	Hai ottenuto un forziere di ricompense	
 ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED_HELP	Premi {0} per aprire	0=Enter key
 ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	La {0} è cominciata!	0=season name e.g. The {August 2021 season} has begun!
 ACCESSIBILITY_UI_SEASON_END_DIALOG_REDUCED_WELCOME	Una nuova stagione è cominciata!	
@@ -523,7 +529,7 @@ ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Premi {0} per aprire il tuo forziere 
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Hai ottenuto {0} |4(ricompensa,ricompense)!	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Usa i tasti freccia e {0} per aprire le tue ricompense	0=Enter key
 
-ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	missione {0} XP	0=xp rewarded by quest. Note: these quests don't have a name
+ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	missione {0} PE	0=xp rewarded by quest. Note: these quests don't have a name
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Ricompense {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Ricompense 1 di {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
 
@@ -532,15 +538,15 @@ ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	Premi {0} per abbandonare	0=a key
 ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	Premi {0} per cambiare	0=r key
 
 ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	Hai raggiunto il livello {0}	0=track reward level e.g. You've reached level {3}
-ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	Hai guadagnato {0} XP	0=XP gained e.g. You've gained {50} XP
-ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	Hai guadagnato {0} XP per aver completato la missione	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	Hai ottenuto {0} PE	0=XP gained e.g. You've gained {50} XP
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	Hai ottenuto {0} PE per aver completato la missione	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
 
 ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	Al momento sei {0}	0=rank name e.g. You are currently Bronze 10
 ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	Ora sei {0}	0=rank name e.g. You are now Diamond 1
 ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	Possiedi {0} su {1} |4(stella,stelle)	0=current stars 1=star slots e.g. You have {1} out of {3} stars
-ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	hai guadagnato {0} |4(stella,stelle)	0=number of stars earned e.g. You've earned {1} star
+ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	hai ottenuto {0} |4(stella,stelle)	0=number of stars earned e.g. You've earned {1} star
 ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Hai perso {0} |4(stella,stelle)	0=number of stars lost e.g. You've lost {1} star
-ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Stella bonus! Times {0}	0=star bonus e.g. Star bonus! Times {4}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Stella bonus! per {0}	0=star bonus e.g. Star bonus! Times {4}
 ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Bonus serie di vittorie {0} volte	0=win streak bonus e.g. Win Streak bonus! Times {2}
 
 ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	Il tuo punteggio è aumentato di {0}	0=rating increase e.g. Your rating increased by 50
@@ -562,8 +568,8 @@ ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} sfere arcane	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} polvere arcana	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(busta di carte,buste di carte)	0=amount
 ACCESSIBILITY_UI_REWARD_N_GOLD	{0} oro	0=amount
-ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(copia,copie) di 1 {1} carta	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
-ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copia,copie) di 1 principale {1} carta	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
+ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(copia,copie) di una carta {1}	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
+ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copia,copie) di un carta principale {1}	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
 ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	{0} dorato	0=Hero name e.g. Golden Jaina Proudmoore
 ACCESSIBILITY_UI_REWARD_CLASS_HERO	{0} Eroe	0=class e.g. Mage Hero
 ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} su {1} eroi sbloccati	0=number of unlocked Heroes 1=total number of Heroes
@@ -575,7 +581,7 @@ ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Pietra runica,Pietre runiche)	0=amou
 ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Avventura,Avventure)	0=amount
 ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Biglietto locanda,Biglietti Locanda )	0=amount
 ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(moneta personalizzata,monete personalizzate)	0=amount
-ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% potenziamento XP	0=amount
+ACCESSIBILITY_UI_REWARD_XP_BOOST	potenziamento PE del {0}%	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini-set,Mini-set)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(modello eroe della Battaglia,modelli eroe della Battaglia)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(barista della Battaglia,baristi della Battaglia)	0=amount
@@ -594,14 +600,14 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	Messaggio da {0}: {1}	0=sender nam
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Messaggio a {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Scrivi un messaggio	
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Invia messaggio	
-ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Invita a una partita nella battaglia	
+ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Invita a una partita in Battaglia	
 ACCESSIBILITY_UI_SOCIAL_INVITE_TO_BRAWL	Invita per la Rissa	
 ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	Non puoi sfidare {0} adesso	
 
 ACCESSIBILITY_UI_REPORTING_POPUP_NO_SUBCOMPLAINTS_SELECTED	Seleziona almeno una delle opzioni	
 
 ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Leggi il livello attuale	
-ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} su {1} Xp per il prossimo livello	
+ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} su {1} PE per il prossimo livello	
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Ottieni {0} |4(ricompensa,ricompense)	0=number of rewards e.g. Claim {5} rewards
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Hai già ottenuto tutte le ricompense per questo livello.	
 ACCESSIBILITY_UI_REWARDS_TRACK_DECK_CHOICE_CONFIRMATION_PROMPT	Sei sicuro di voler scegliere questo mazzo? Premere {0} per confermare o {1} per annullare	0=enter key 1=backspace key
@@ -670,15 +676,16 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Premi {0} per creare 
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Premi {0} per creare un mazzo personalizzato o {1} per selezionare una combinazione	0=Enter key 1=Backspace key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Aggiungi carte	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Mostra il mazzo	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_SIDEBOARD_OPTION	Mostra il SideBoard	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_SIDEBOARD_OPTION	Mostra il Sideboard	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_LOAD_SAVED_VERSION_OPTION	Carica la versione salvata	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_BACK_TO_DECK_OPTION	torna al mazzo	Used when editing a sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Il tuo mazzo è vuoto	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_SIDEBOARD	Questo SideBord è vuoto	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_SIDEBOARD	Questo Sideboard è vuoto	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	{0} di {1} carte nel mazzo	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_SIDEBOARD	{0} di {1} carte nel SideBoard	0=number of cards in sideboard 1=max number of cards in sideboard e.g. {10} of {30} cards in sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_COST_OF_MINIONS_IN_DECK	Costo dei servitori: {0} su {1} mana	Spoken when Vyranoth is in the current deck. 0=current cost of minions 1=target cost for Vyranoth's effect to trigger e.g. Cost of minions: {10} of {100} mana
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_SIDEBOARD	{0} di {1} carte nel Sideboard	0=number of cards in sideboard 1=max number of cards in sideboard e.g. {10} of {30} cards in sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_INVALID_CARD	Non valida	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	SideBoard	Used in place of the deck name when editing a sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	Sideboard	Used in place of the deck name when editing a sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_FORMAT_CHANGED	Formato cambiato	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Usa i tasti freccia per leggere le tue carte. Usa {0} per saltare tra le classi.	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Usa i tasti numerici per filtrare le tue carte per mana. Usa {0} per cercare nella tua collezione.	0=ctrl+f
@@ -725,7 +732,7 @@ ACCESSIBILITY_SCREEN_PACK_OPENING_CATCHUP_PACK_OPENING_HELP	Usa i tasti freccia 
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Non hai buste di carte al momento	
 
 ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	Quante buste vorresti aprire? Inserisci un valore compreso tra {0} e {1}	0=minimum value 1=maximum value
-ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT_ERROR	Quantità inserita non valida: puoi aprire tra {0} e {1} buste	0=minimum quantity 1=maximum quantity
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT_ERROR	Quantità inserita non valida: puoi aprire da {0} a {1} buste	0=minimum quantity 1=maximum quantity
 
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_LEGENDARY_COUNT	{0} |4(carta leggendaria,carte leggendarie)	0=number of cards
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_EPIC_COUNT	{0} |4(carta epica,carte epiche)	0=number of cards
@@ -758,7 +765,7 @@ ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_LEADER	capo
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_NOT_READY	non è pronto	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_SPECTATE	sta giocando	
 
-ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	progressione della missione	
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Progressione della missione	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Progresso attuale {0} di {1}	0=current progress 1=total
 
 ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Hai terminato una missione	
@@ -882,7 +889,7 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Usa le frecce o {0} per esp
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Se trovi una carta che non ti piace, premi {0} per marcarla per la sostituzione	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Una volta che le carte indesiderate sono state marcate per essere sostituite, premi {0} per rimescolare il mazzo ed iniziare la partita	0=Enter key
 
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_ETC_TUTORIAL	Per modificare il SideBoard, passa alla modalità di modifica del mazzo e focalizzati su questa carta e premi la barra spaziatrice.	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_ETC_TUTORIAL	Per modificare il Sideboard, passa alla modalità di modifica del mazzo e focalizzati su questa carta e premi la barra spaziatrice.	
 
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	Usa {0} e {1} per acquistare i servitori.	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Usa {0} e {1} per acquistare servitori per 3 Monete. Costruisci la tua armata per sconfiggere i nemici!	0=g key 1=Enter key
@@ -918,6 +925,20 @@ ACCESSIBILITY_ARENA_CHANGE_TO_UNDERGROUND_MODE	Passa alla modalità arena sotter
 ACCESSIBILITY_ARENA_DRAFT_PACKAGE_HELP	Usa i tasti freccia sinistra e destra per navigare nel menu. Usa i tasti freccia su e giù per leggere le opzioni. Questo è un pacchetto di carte che inserirai automaticamente per intero se selezioni questo pacchetto. Premi {0} per selezionare questo pacchetto oppure premi {1} per tornare indietro e sceglierne un altro.	Package selection help in arena, 0 is confirm and 1 is back.
 ACCESSIBILITY_ARENA_EMPTY_DECK	Non hai ancora inserito nessuna carta.	No deck to view.
 
+ACCESSIBILITY_ARENA_VIEW_DECK_BUTTON	Visualizza mazzo.	View deck button in arena menu.
+ACCESSIBILITY_ARENA_REDRAFT_ALREADY_DRAGGING_FROM_SLOT	Al momento stai spostando una carta da uno slot al tuo mazzo. Premi {0} su una carta per confermare lo scambio oppure premi {1} per interrompere lo spostamento.	0 is confirm 1 is back
+ACCESSIBILITY_ARENA_REDRAFT_ALREADY_DRAGGING_FROM_DECK	Al momento stai spostando una carta dal tuo mazzo a uno slot. Premi {0} su una carta per confermare lo scambio oppure premi {1} per interrompere lo spostamento.	0 is confirm 1 is back
+ACCESSIBILITY_ARENA_REDRAFT_EMPTY_SLOT	Lo slot {0} è vuoto.	0 is slot number
+ACCESSIBILITY_ARENA_REDRAFT_SLOT_EMPTY_ERROR	Quello slot è vuoto. Selezionane uno pieno per scambiarne il contenuto con la carta selezionata nel tuo mazzo.	Trying to drag card to empty slot error
+ACCESSIBILITY_ARENA_REDRAFT_PROMPT_SWAP_SLOT	Premi {0} sulla carta con cui desideri scambiare quella selezionata nel tuo mazzo.	0 is confirm
+ACCESSIBILITY_ARENA_REDRAFT_PROMPT_SWAP_DECK	Premi {0} sulla carta con cui desideri scambiare la carta selezionata dal tuo slot di draft.	0 is confirm
+ACCESSIBILITY_ARENA_REDRAFT_DRAG_CANCELLED	Hai annullato lo scambio.	Cancel redraft card swap
+ACCESSIBILITY_ARENA_EXIT_EDIT_DECK_CONFIRM	Stai per finalizzare la tua modifica. Se desideri procedere, premi {0} o {1} o qualsiasi altro tasto per annullare.	0 is confirm 1 is e.
+ACCESSIBILITY_ARENA_REDRAFT_DECK_HELP	Premi {0} su una carta per spostarla in uno slot di redraft libero, se ne hai uno. Premi {1} su una carta per selezionarla, a quel punto verrai spostato nei tuoi slot di ridraft. Premi {2} su uno slot pieno per scambiare le posizioni di quelle due carte. Premi {3} per annullare uno scambio in corso.	0 is confirm, 1 is space, 2 is confirm, 3 is back
+ACCESSIBILITY_ARENA_REDRAFT_SLOT_HELP	Premi {0} su uno slot pieno per spostarlo nel tuo mazzo in corso. Premi {1} su uno slot pieno per selezionarlo, a quel punto verrai spostato al tuo mazzo in corso. Premi {2} su una carta attualmente nel tuo mazzo per scambiare la posizione di quelle due carte. Premi {3} per annullare uno scambio in corso.	0 is confirm, 1 is space, 2 is confirm, 3 is back
+ACCESSIBILITY_ARENA_REDRAFT_GENERAL_HELP	Premi {0} per vedere quante carte ci sono nel tuo mazzo in corso. Premi {1} per concludere il draft.	General help for all redraft views.
+ACCESSIBILITY_ARENA_REDRAFT_DECK_COUNT	Il tuo mazzo in corso contiene {0} carte.	0 is number of cards in deck
+
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	Seleziona categoria:
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Completate di recente:
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} di {2} punti impresa totali ({3}), {4} di {5} imprese completate	should be self explanatory, {0} is the category or subcategory name.
@@ -930,7 +951,7 @@ ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	Impossibile riscattare l'impresa.
 ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Usa le frecce sinistra e destra per navigare nell'elenco delle imprese e le frecce su e giù per visualizzare le informazioni dell'impresa selezionata. Premi {0} per tentare di riscattare un'impresa richiedibile. Premi {1} per tornare al menu precedente. Premi {2} per passare tra la visualizzazione di tutte le imprese e la visualizzazione di quelle incomplete.
 ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} di {1} Imprese Incomplete
 ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	premi c per accedere alla tua collezione	Available in some choose deck menus
-ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Livello {0}: {1} xp necessari	0 is the level number
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Livello {0}: {1} PE necessari	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, ricompense: {0}	0 is text description of rewards. This is appended to the previous item.
 
 ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	Completata	
@@ -940,7 +961,7 @@ ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	Classi consigliate: {0}	0=c
 ACCESSIBILITY_TAVERN_GUIDE_NEW	Nuovo!	Spoken when the tavern guide has a new quest or reward
 ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	Riscatta la ricompensa!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
 
-ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	Hai guadagnato una ricompensa! La puoi riscattare nel diario	
+ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	Hai ottenuto una ricompensa! La puoi riscattare nel diario	
 
 ACCESSIBILITY_DUELS_READ_STATS	Consulta statistiche	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	Scegli il tipo per i Duelli	Choosing the type of duels (casual/heroic)

@@ -922,6 +922,8 @@ ACCESSIBILITY_ARENA_BEGIN_NEW_UNDERGROUND_RUN	Begin a new underground run of the
 ACCESSIBILITY_ARENA_RETIRE_BUTTON	Retire.	Retire button.
 ACCESSIBILITY_ARENA_HELP_DRAFTING_HERO	Once you have selected a hero press {0} on the same hero to confirm the choice. If you wish to change your mind before confirming select any other hero to cancel the action, or press {1}.	Help for hero drafting.
 ACCESSIBILITY_ARENA_HERO_SELECTED_PROMPT	If you wish to continue with this hero, press {0}. If you wish to choose another, press {1}.	0 is confirm 1 is back.
+ACCESSIBILITY_ARENA_HELP_DRAFTING_HERO_POWER	Once you have selected a hero power press {0} on the same hero to confirm the choice. If you wish to change your mind before confirming select any other hero power to cancel the action, or press {1}. Note that this is the hero power you will have in actual games, the actual hero selection only influences the available card pool.	Help for hero power drafting.
+ACCESSIBILITY_ARENA_HERO_POWER_SELECTED_PROMPT	If you wish to continue with this hero power, press {0}. If you wish to choose another, press {1}.	0 is confirm 1 is back.
 ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME	Welcome to the arena!	No run title for arena.
 ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME_BACK	Welcome back to the arena!	Run in progress title for arena.
 ACCESSIBILITY_ARENA_MENU_TITLE_RUN_COMPLETE	Run complete!	Run is over menu.

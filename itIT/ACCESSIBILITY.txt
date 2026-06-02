@@ -916,6 +916,8 @@ ACCESSIBILITY_ARENA_BEGIN_NEW_UNDERGROUND_RUN	Inizia una nuova corsa nell'arena 
 ACCESSIBILITY_ARENA_RETIRE_BUTTON	Ritirati.	Retire button.
 ACCESSIBILITY_ARENA_HELP_DRAFTING_HERO	Dopo aver selezionato un eroe, premi {0} sullo stesso eroe per confermare la scelta. Se desideri cambiare idea prima di confermare, seleziona un altro eroe per annullare l'azione o premi {1}.	Help for hero drafting.
 ACCESSIBILITY_ARENA_HERO_SELECTED_PROMPT	Se desideri continuare con questo eroe, premi {0}. Se desideri sceglierne un altro, premi {1}.	0 is confirm 1 is back.
+ACCESSIBILITY_ARENA_HELP_DRAFTING_HERO_POWER	Una volta selezionato un potere eroe, premi {0} sullo stesso eroe per confermare la scelta. Se desideri cambiare idea prima di confermare, seleziona un qualsiasi altro potere eroe per annullare l'azione, oppure premi {1}. Nota che questo è il potere eroe che avrai nelle partite vere e proprie; la selezione dell'eroe influenza solo il pool di carte disponibili.	Help for hero power drafting.
+ACCESSIBILITY_ARENA_HERO_POWER_SELECTED_PROMPT	Se desideri continuare con questo potere eroe, premi {0}. Se desideri sceglierne un altro, premi {1}.	0 is confirm 1 is back.
 ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME	Benvenuto nell'arena!	No run title for arena.
 ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME_BACK	Bentornato nell'arena!	Run in progress title for arena.
 ACCESSIBILITY_ARENA_MENU_TITLE_RUN_COMPLETE	Corsa completata!	Run is over menu.

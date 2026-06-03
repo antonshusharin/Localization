@@ -158,6 +158,7 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Summon between {0} and {1}?	S
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Play card?	
 ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Trade card?	
 ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	Forge card?	
+ACCESSIBILITY_GAMEPLAY_QUERY_PREPARE_CARD	Prepare card?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	You still have valid plays. Are you sure?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	You can still attack. Are you sure?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	You can still activate locations. Are you sure?	
@@ -382,6 +383,8 @@ ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Use the up and down arrow keys to read thi
 ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Press {0} to get a description of this card's abilities	0=i key
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Press {0} to play this card	0=Enter key
 ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Press {0} to trade this card	0=t key
+ACCESSIBILITY_GAMEPLAY_FORGE_CARD_HELP	Press {0} to forge this card	0=t key
+ACCESSIBILITY_GAMEPLAY_PREPARE_CARD_HELP	Press {0} to prepare this card	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Press {0} to summon this minion	0=Enter key
 ACCESSIBILITY_GAMEPLAY_POSITION_LOCATION_HELP	Press {0} to place this location	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Use the arrow keys to go through your options. Press {0} to choose one. Press {1} to inspect the board	0=Enter key 1=tab key

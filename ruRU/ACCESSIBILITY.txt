@@ -156,6 +156,7 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Призвать между {
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Сыграть картой?	
 ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Обменять карту?	
 ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	Выковать карту?	
+ACCESSIBILITY_GAMEPLAY_QUERY_PREPARE_CARD	Подготовить карту?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	У Вас есть доступные действия. Вы уверены?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Вы можете атаковать. Вы уверены?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	Вы можете использовать область. Вы уверены?	
@@ -375,6 +376,8 @@ ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Используйте клавиши со
 ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Нажмите {0}, чтобы получить описание способностей этой карты	0=i key
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Нажмите {0}, чтобы сыграть этой картой	0=Enter key
 ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Нажмите {0}, чтобы обменять эту карту	0=t key
+ACCESSIBILITY_GAMEPLAY_FORGE_CARD_HELP	Нажмите {0}, чтобы выковать эту карту	0=t key
+ACCESSIBILITY_GAMEPLAY_PREPARE_CARD_HELP	Нажмите {0}, чтобы подготовить эту карту	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Нажмите {0}, чтобы призвать это существо	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Используйте клавиши со стрелками для выбора опций. Нажмите {0} для подтверждения	0=Enter key
 ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	Используйте клавиши областей для изучения состояния стола. Нажмите {0}, чтобы вернуться к выбору	0=tab key

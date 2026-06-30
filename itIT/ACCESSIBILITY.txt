@@ -155,13 +155,14 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	Vuoi evocare?
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	Vuoi evocare a destra?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Vuoi evocare a sinistra?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Vuoi evocare tra {0} e {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
-ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Vuoi giocare questa carta?	
-ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Vuoi scambiare questa carta?	
-ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	Vuoi forgiare questa carta?	
+ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Vuoi giocare la carta?	
+ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Vuoi scambiare la carta?	
+ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	Vuoi forgiare la carta?	
+ACCESSIBILITY_GAMEPLAY_QUERY_PREPARE_CARD	Vuoi predisporre la carta?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	Hai ancora giocate valide. Sei sicuro?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Puoi ancora attaccare. Sei sicuro?	
-ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	Puoi ancora attivare il tuo luogo. Sei sicuro?	
-ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Puoi ancora usare il tuo potere eroe. Sei sicuro?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	Puoi ancora attivare un luogo. Sei sicuro?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Puoi ancora usare il potere eroe. Sei sicuro?	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	Non hai alcun servitore in gioco	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	L'eroe avversario non può essere attaccato	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	L'eroe avversario non può essere bersagliato	
@@ -382,15 +383,17 @@ ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Usa le frecce su e giù per leggere questa
 ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Premi {0} per avere una descrizione delle abilità di questa carta	0=i key
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Premi {0} per giocare questa carta	0=Enter key
 ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Premi {0} per scambiare questa carta	0=t key
+ACCESSIBILITY_GAMEPLAY_FORGE_CARD_HELP	Premi {0} per forgiare questa carta	0=t key
+ACCESSIBILITY_GAMEPLAY_PREPARE_CARD_HELP	Premi {0} per predisporre questa carta	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Premi {0} per evocare questo servitore	0=Enter key
 ACCESSIBILITY_GAMEPLAY_POSITION_LOCATION_HELP	Premi {0} per posizionare questo luogo	0=Enter key
-ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Usa i tasti freccia per navigare tra le tue opzioni. Premi {0} per sceglierne una. Premi {1} per ispezionare il tabellone di gioco		0=Enter key 1=tab key
+ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Usa i tasti freccia per navigare tra le opzioni. Premi {0} per sceglierne una. Premi {1} per ispezionare il tabellone di gioco		0=Enter key 1=tab key
 ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	Usa i tasti zona per ispezionare lo stato del tabellone di gioco. Premi {0} per tornare alle scelte	0=tab key
 ACCESSIBILITY_GAMEPLAY_REWIND_MODE_HELP	Usa i tasti zona per controllare lo stato del tabellone. Premi {0} per riavvolgere o {1} per mantenere lo stato attuale.	0=U key 1=J key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Usa {0} o i tasti zona per spostarti tra i bersagli disponibili. Premi {1} per scegliere un bersaglio o {2} per annullare	0=Tab key 1=Enter key 2=Backspace key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Premi {0} per attaccare con questo servitore	0=Enter key
-ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Premi {0} per attaccare con il tuo eroe	0=Enter key
-ACCESSIBILITY_GAMEPLAY_USE_HERO_POWER_HELP	Premi {0} per usare il tuo potere eroe	0=Enter key
+ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Premi {0} per attaccare con l'eroe	0=Enter key
+ACCESSIBILITY_GAMEPLAY_USE_HERO_POWER_HELP	Premi {0} per usare il potere eroe	0=Enter key
 ACCESSIBILITY_GAMEPLAY_READ_THROUGH_VALID_TARGETS	Usa {0} per spostarti tra i bersagli validi	0=Tab key
 ACCESSIBILITY_GAMEPLAY_ATTACK_THIS_MINION_HELP	Premi {0} per attaccare questo servitore	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CANCEL_ATTACK_HELP	Premi {0} per annullare l'attacco	0=Backspace key
@@ -398,7 +401,7 @@ ACCESSIBILITY_GAMEPLAY_CANCEL_HELP	Premi {0} per annullare	0=Backspace key
 ACCESSIBILITY_GAMEPLAY_SUMMONING_CHOOSE_POSITION_HELP	Usa le frecce sinistra e destra per scegliere una posizione per questo servitore	
 ACCESSIBILITY_GAMEPLAY_OPEN_HISTORY_LOG_HELP	Premi {0} per aprire il registro partita	0=y key
 ACCESSIBILITY_GAMEPLAY_READ_HISTORY_HELP	Usa le frecce su e giù per leggere il registro partita. Premi {0} per chiudere il registro	0=Backspace key
-ACCESSIBILITY_GAMEPLAY_END_TURN_HELP	Premi {0} per terminare il tuo turno	0=e key
+ACCESSIBILITY_GAMEPLAY_END_TURN_HELP	Premi {0} per terminare il turno	0=e key
 
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	Non è stato giocato ancora nulla	
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2}, {0} di {1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}

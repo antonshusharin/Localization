@@ -152,9 +152,13 @@ ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	L'avversario ha scartato {0}	0=c
 ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	La moneta va a te	
 ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	In attesa dell'avversario	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	Vuoi evocare?	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_OPPOSING_SIDE	Vuoi evocare per l'avverssario?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	Vuoi evocare a destra?	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT_OPPOSING_SIDE	Vuoi evocare a destra per l'avversario?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Vuoi evocare a sinistra?	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT_OPPOSING_SIDE	Vuoi evocare a sinistra per l'avversario?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Vuoi evocare tra {0} e {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN_OPPOSING_SIDE	Vuoi evocare tra {0} e {1} per l'avversario?	Summon between {Murloc Raider} and {Bloodfen Raptor} for opponent?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Vuoi giocare la carta?	
 ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Vuoi scambiare la carta?	
 ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	Vuoi forgiare la carta?	
@@ -390,6 +394,7 @@ ACCESSIBILITY_GAMEPLAY_POSITION_LOCATION_HELP	Premi {0} per posizionare questo l
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Usa i tasti freccia per navigare tra le opzioni. Premi {0} per sceglierne una. Premi {1} per ispezionare il tabellone di gioco		0=Enter key 1=tab key
 ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	Usa i tasti zona per ispezionare lo stato del tabellone di gioco. Premi {0} per tornare alle scelte	0=tab key
 ACCESSIBILITY_GAMEPLAY_REWIND_MODE_HELP	Usa i tasti zona per controllare lo stato del tabellone. Premi {0} per riavvolgere o {1} per mantenere lo stato attuale.	0=U key 1=J key
+ACCESSIBILITY_GAMEPLAY_REROLL_CHOICE_HELP	Premi {0} per rilanciare	0=R key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Usa {0} o i tasti zona per spostarti tra i bersagli disponibili. Premi {1} per scegliere un bersaglio o {2} per annullare	0=Tab key 1=Enter key 2=Backspace key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Premi {0} per attaccare con questo servitore	0=Enter key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Premi {0} per attaccare con l'eroe	0=Enter key
@@ -436,6 +441,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	Congelare la
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	Scongelare la locanda?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	Ricaricare la locanda per {0} |4(moneta,monete)?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	Migliorare il livello per {0} |4(moneta,monete)?	0=amount e.g. Upgrade tavern for 3 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_DARK_GIFT	Acquista servitore con dono oscuro per {0} |4(moneta,monete)?	0=cost
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REROLL_HERO	Rilancia per {0} |4(gettone,gettoni)?	0=amount e.g. Reroll for {1} token?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TOKENS	Hai {0} |4(gettone,gettoni)	0=amount e.g. You have 5 tokens
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_BUY_TRINKET	Compra un monile!	

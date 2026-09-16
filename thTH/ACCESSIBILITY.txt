@@ -152,9 +152,13 @@ ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	ฝ่ายตรงข้า�
 ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	คุณได้รับเหรียญ	
 ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	รอฝ่ายตรงข้ามก่อน	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	ซัมมอน?	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_OPPOSING_SIDE	ซัมมอนสำหรับฝ่ายตรงข้าม?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	ซัมมอนที่ด้านขวา?	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT_OPPOSING_SIDE	ซัมมอนที่ด้านขวาสำหรับฝ่ายตรงข้าม?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	ซัมมอนที่ด้านซ้าย?	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT_OPPOSING_SIDE	ซัมมอนที่ด้านซ้ายสำหรับฝ่ายตรงข้าม?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	ซัมมอนระหว่าง {0} และ {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN_OPPOSING_SIDE	ซัมมอนระหว่าง {0} และ {1} สำหรับฝ่ายตรงข้าม?	Summon between {Murloc Raider} and {Bloodfen Raptor} for opponent?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	เล่นการ์ด?	
 ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	เปลี่ยนการ์ด?	
 ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	หล่อหลอมการ์ด?	
@@ -390,6 +394,7 @@ ACCESSIBILITY_GAMEPLAY_POSITION_LOCATION_HELP	กด {0} เพื่อวา�
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	ใช้ลูกศรเพื่อไปยังตัวเลือกต่างๆ กด {0} เพื่อเลือกตัวเลือก	0=Enter key
 ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	ใช้ปุ่มโซนเพื่อตรวจสอบสถานะของบอร์ดเกม กด {0} เพื่อกลับไปยังตัวเลือก	0=tab key
 ACCESSIBILITY_GAMEPLAY_REWIND_MODE_HELP	ใช้ปุ่มโซนเพื่อตรวจสอบสถานะของบอร์ดเกม กด {0} เพื่อย้อนเวลา, หรือกด {1} เพื่อเก็บสถานะปัจจุบัน	0=U key 1=J key
+ACCESSIBILITY_GAMEPLAY_REROLL_CHOICE_HELP	กด {0} เพื่อสุ่มใหม่	0=R key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	กด {0} หรือปุ่มโซนเพื่อไปยังเป้าหมาย กด {1} เพื่อเลือกเป้าหมายหรือกด {2} เพื่อยกเลิก	0=Tab key 1=Enter key 2=Backspace key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	กด {0} เพื่อโจมตีด้วยมินเนี่ยนตัวนี้	0=Enter key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	กด {0} เพื่อโจมตีด้วยฮีโร่ของคุณ	0=Enter key
@@ -436,6 +441,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	แช่แ
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	ยกเลิกแช่แข็งโรงเตี๊ยม?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	รีเฟรชโรงเตี๊ยมใช้ {0} ทอง?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	อัพเกรดโรงเตี๊ยมใช้ {0} ทอง?	0=amount e.g. Upgrade tavern for 3 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_DARK_GIFT	ซื้อมินเนี่ยนแบบของขวัญพลังมืดใช้ {0} ทอง?	0=cost
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REROLL_HERO	หมุนซ้ำใช้ {0} |4(โทเค็น,โทเค็น)?	0=amount e.g. Reroll for {1} token?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TOKENS	คุณมี {0} |4(โทเค็น,โทเค็น)	0=amount e.g. You have 5 tokens
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_BUY_TRINKET	ซื้อเครื่องประดับ!	
